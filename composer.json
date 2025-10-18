@@ -26,6 +26,12 @@
         "phpunit/phpunit": "^10.5.16 || ^11.2",
         "predis/predis": "^3.0"
     },
+    "authors": [
+        {
+            "name": "ArnoldSupilanas",
+            "role": "Owner"
+        }
+    ],
     "suggest": {
         "ext-curl": "If you use CURLRequest class",
         "ext-dom": "If you use TestResponse",
