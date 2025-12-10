@@ -88,6 +88,14 @@ $routes->group('student', ['filter' => 'roleauth:student'], function($routes){
 });
 
 // ============================================================================
+// COURSE ROUTES (General course functionality)
+// ============================================================================
+$routes->post('/course/enroll', 'Course::enroll');
+$routes->post('/course/unenroll', 'Course::unenroll');
+$routes->get('/course/enrolled-courses', 'Course::getEnrolledCourses');
+$routes->get('/course', 'Course::index');
+
+// ============================================================================
 // LEGACY ROUTES (Backward compatibility)
 // ============================================================================
 $routes->match(['get','post'], '/auth/login', 'Auth::login');
