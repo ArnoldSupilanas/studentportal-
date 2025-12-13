@@ -36,19 +36,49 @@
                             </div>
                         <?php endif; ?>
 
-                        <form method="POST" action="<?= base_url('auth/login') ?>">
+                        <?php if (session()->getFlashdata('success')): ?>
+                            <div class="alert alert-success">
+                                <i class="fas fa-check-circle me-2"></i>
+                                <?= session()->getFlashdata('success') ?>
+                            </div>
+                        <?php endif; ?>
+
+                        <?php if (isset($validation) && $validation->hasErrors()): ?>
+                            <div class="alert alert-danger">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                <strong>Please fix the following errors:</strong>
+                                <ul class="mb-0 mt-2">
+                                    <?php foreach ($validation->getErrors() as $error): ?>
+                                        <li><?= esc($error) ?></li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </div>
+                        <?php endif; ?>
+
+                        <form method="POST" action="<?= base_url('login') ?>">
+                            <?= csrf_field() ?>
                             <div class="mb-3">
                                 <label for="email" class="form-label">
                                     <i class="fas fa-envelope me-1"></i>Email Address
                                 </label>
-                                <input type="email" class="form-control" id="email" name="email" required>
+                                <input type="email" class="form-control <?= (isset($validation) && $validation->hasError('email')) ? 'is-invalid' : '' ?>" id="email" name="email" value="<?= old('email') ?>" required>
+                                <?php if (isset($validation) && $validation->hasError('email')): ?>
+                                    <div class="invalid-feedback">
+                                        <?= $validation->getError('email') ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             
                             <div class="mb-4">
                                 <label for="password" class="form-label">
                                     <i class="fas fa-lock me-1"></i>Password
                                 </label>
-                                <input type="password" class="form-control" id="password" name="password" required>
+                                <input type="password" class="form-control <?= (isset($validation) && $validation->hasError('password')) ? 'is-invalid' : '' ?>" id="password" name="password" required>
+                                <?php if (isset($validation) && $validation->hasError('password')): ?>
+                                    <div class="invalid-feedback">
+                                        <?= $validation->getError('password') ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             
                             <button type="submit" class="btn btn-primary w-100 btn-lg">
@@ -77,9 +107,9 @@
                                 <small>admin123</small>
                             </div>
                             <div class="col-md-4">
-                                <small class="text-muted">Instructor:</small><br>
+                                <small class="text-muted">Teacher:</small><br>
                                 <strong>instructor@lms.com</strong><br>
-                                <small>instructor123</small>
+                                <small>teacher123</small>
                             </div>
                             <div class="col-md-4">
                                 <small class="text-muted">Student:</small><br>
