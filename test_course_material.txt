@@ -1,0 +1,15 @@
+Test File for Materials Upload System
+
+This is a simple text file to test the upload functionality.
+
+Course: Introduction to Programming
+Instructor: Jane Doe
+Date: December 22, 2025
+
+Content:
+- Basic programming concepts
+- Variables and data types
+- Control structures
+- Functions and methods
+
+This file can be uploaded to test the materials management system.

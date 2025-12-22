@@ -12,7 +12,15 @@ class EnrollmentModel extends Model
     protected $returnType = 'array';
     protected $useSoftDeletes = false;
     protected $protectFields = true;
-    protected $allowedFields = ['user_id', 'course_id', 'enrollment_date', 'status', 'progress'];
+    protected $allowedFields = [
+        'user_id',
+        'course_id',
+        'enrollment_date',
+        'status',
+        'progress',
+        'created_at',
+        'updated_at'
+    ];
 
     // Dates
     protected $useTimestamps = true;
@@ -27,7 +35,7 @@ class EnrollmentModel extends Model
         'course_id' => 'required|integer|greater_than[0]',
         'enrollment_date' => 'required|valid_date[Y-m-d H:i:s]',
         'status' => 'in_list[enrolled,completed,dropped]',
-        'progress' => 'numeric|greater_than_equal[0]|less_than_equal[100]'
+        'progress' => 'numeric|greater_than_equal_to[0]|less_than_equal_to[100]'
     ];
     protected $validationMessages = [];
     protected $skipValidation = false;
@@ -52,10 +60,28 @@ class EnrollmentModel extends Model
      */
     public function enrollUser($data)
     {
-        // Set default values
+        $userId = (int) $data['user_id'];
+        $courseId = (int) $data['course_id'];
+        $existing = $this->where('user_id', $userId)
+                         ->where('course_id', $courseId)
+                         ->first();
+
+        if ($existing) {
+            if (isset($existing['status']) && $existing['status'] === 'enrolled') {
+                return (int) $existing['id'];
+            }
+            $updateData = [
+                'status' => 'enrolled',
+                'enrollment_date' => $data['enrollment_date'] ?? date('Y-m-d H:i:s'),
+                'progress' => 0.00
+            ];
+            $this->update($existing['id'], $updateData);
+            return (int) $existing['id'];
+        }
+
         $enrollmentData = [
-            'user_id' => $data['user_id'],
-            'course_id' => $data['course_id'],
+            'user_id' => $userId,
+            'course_id' => $courseId,
             'enrollment_date' => $data['enrollment_date'] ?? date('Y-m-d H:i:s'),
             'status' => 'enrolled',
             'progress' => 0.00
@@ -154,5 +180,131 @@ class EnrollmentModel extends Model
                     ->where('course_id', $course_id)
                     ->set(['status' => 'dropped'])
                     ->update();
+    }
+
+    /**
+     * Get enrollment statistics for dashboard
+     *
+     * @return array Array of enrollment statistics
+     */
+    public function getEnrollmentStats()
+    {
+        $builder = $this->db->table('enrollments');
+        
+        $stats = [
+            'total_enrollments' => $builder->countAllResults(),
+        ];
+        
+        // Reset builder for each query
+        $builder = $this->db->table('enrollments');
+        $stats['active_enrollments'] = $builder->where('status', 'enrolled')->countAllResults();
+        
+        $builder = $this->db->table('enrollments');
+        $stats['completed_enrollments'] = $builder->where('status', 'completed')->countAllResults();
+        
+        $builder = $this->db->table('enrollments');
+        $stats['dropped_enrollments'] = $builder->where('status', 'dropped')->countAllResults();
+
+        return $stats;
+    }
+
+    /**
+     * Get all enrollments with user and course details
+     *
+     * @param string|null $status Filter by status
+     * @param int|null $limit Limit number of results
+     * @param int $offset Offset for pagination
+     * @return array Array of enrollment records
+     */
+    public function getAllEnrollments($status = null, $limit = null, $offset = 0)
+    {
+        $builder = $this->select('enrollments.*, users.first_name, users.last_name, users.email, courses.title as course_title')
+                        ->join('users', 'users.id = enrollments.user_id')
+                        ->join('courses', 'courses.id = enrollments.course_id');
+
+        if ($status) {
+            $builder->where('enrollments.status', $status);
+        }
+
+        if ($limit) {
+            return $builder->limit($limit, $offset)->findAll();
+        }
+
+        return $builder->findAll();
+    }
+
+    /**
+     * Search enrollments with filters
+     *
+     * @param string $search_term Search term
+     * @param string|null $status Filter by status
+     * @param int|null $limit Limit number of results
+     * @param int $offset Offset for pagination
+     * @return array Array of matching enrollment records
+     */
+    public function searchEnrollments($search_term, $status = null, $limit = null, $offset = 0)
+    {
+        $builder = $this->select('enrollments.*, users.first_name, users.last_name, users.email, courses.title as course_title')
+                        ->join('users', 'users.id = enrollments.user_id')
+                        ->join('courses', 'courses.id = enrollments.course_id')
+                        ->groupStart()
+                            ->like('users.first_name', $search_term)
+                            ->orLike('users.last_name', $search_term)
+                            ->orLike('users.email', $search_term)
+                            ->orLike('courses.title', $search_term)
+                        ->groupEnd();
+
+        if ($status) {
+            $builder->where('enrollments.status', $status);
+        }
+
+        if ($limit) {
+            $builder->limit($limit, $offset);
+        }
+
+        return $builder->findAll();
+    }
+
+    /**
+     * Count search results
+     *
+     * @param string $search_term Search term
+     * @param string|null $status Filter by status
+     * @return int Number of matching records
+     */
+    public function countSearchResults($search_term, $status = null)
+    {
+        $builder = $this->db->table('enrollments')
+                        ->join('users', 'users.id = enrollments.user_id')
+                        ->join('courses', 'courses.id = enrollments.course_id')
+                        ->groupStart()
+                            ->like('users.first_name', $search_term)
+                            ->orLike('users.last_name', $search_term)
+                            ->orLike('users.email', $search_term)
+                            ->orLike('courses.title', $search_term)
+                        ->groupEnd();
+
+        if ($status) {
+            $builder->where('enrollments.status', $status);
+        }
+
+        return $builder->countAllResults();
+    }
+
+    /**
+     * Count enrollments by status
+     *
+     * @param string|null $status Filter by status
+     * @return int Number of enrollments
+     */
+    public function countEnrollments($status = null)
+    {
+        $builder = $this->db->table('enrollments');
+        
+        if ($status) {
+            $builder->where('status', $status);
+        }
+        
+        return $builder->countAllResults();
     }
 }

@@ -1,0 +1,57 @@
+Web Development Fundamentals - Course Materials
+==============================================
+
+Week 1: HTML Fundamentals
+-------------------------
+- HTML Structure and Elements
+- Semantic HTML5 Tags
+- Forms and Input Validation
+- Accessibility Best Practices
+
+Week 2: CSS Styling
+-------------------
+- CSS Selectors and Specificity
+- Box Model and Layout
+- Flexbox and Grid Systems
+- Responsive Design Principles
+
+Week 3: JavaScript Basics
+------------------------
+- Variables and Data Types
+- Functions and Scope
+- DOM Manipulation
+- Event Handling
+
+Week 4: Modern Web Development
+------------------------------
+- ES6+ Features
+- Async JavaScript (Promises, async/await)
+- API Integration
+- Framework Introduction
+
+Week 5: Frontend Tools
+---------------------
+- Version Control with Git
+- Package Managers (npm, yarn)
+- Build Tools and Bundlers
+- Testing and Debugging
+
+Practical Projects:
+------------------
+1. Personal Portfolio Website
+2. Interactive To-Do Application
+3. Weather App with API Integration
+4. E-commerce Product Page
+
+Assignment Guidelines:
+-----------------------
+1. Code must be well-commented
+2. Follow responsive design principles
+3. Ensure cross-browser compatibility
+4. Include proper error handling
+
+Instructor: Jane Doe
+Email: jane.instructor@lms.com
+Office Hours: Tue/Thu 3:00-5:00 PM
+
+This material is for testing the student portal download functionality.

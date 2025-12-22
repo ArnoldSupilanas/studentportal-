@@ -3,14 +3,66 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;
+use App\Models\EnrollmentModel;
+use App\Models\CourseModel;
 
 class Auth extends BaseController
 {
     protected $userModel;
+    protected $enrollmentModel;
+    protected $courseModel;
 
     public function __construct()
     {
         $this->userModel = new UserModel();
+        $this->enrollmentModel = new EnrollmentModel();
+        $this->courseModel = new CourseModel();
+    }
+
+    // Quick login method for debugging
+    public function quickLogin()
+    {
+        // Handle logout
+        if ($this->request->getGet('logout')) {
+            session()->destroy();
+            return redirect()->to('/quick-login');
+        }
+
+        // Handle login POST
+        if ($this->request->getMethod() === 'post') {
+            $email = $this->request->getPost('email');
+            $password = $this->request->getPost('password');
+            
+            // Simple authentication for testing
+            if ($email === 'student@lms.com' && $password === 'password') {
+                session()->set([
+                    'is_logged_in' => true,
+                    'logged_in' => true,
+                    'userID' => 3,
+                    'user_id' => 3,
+                    'role' => 'student',
+                    'first_name' => 'Bob',
+                    'last_name' => 'Student',
+                    'email' => $email
+                ]);
+                return redirect()->to('/auth/dashboard');
+            } elseif ($email === 'admin@lms.com' && $password === 'password') {
+                session()->set([
+                    'is_logged_in' => true,
+                    'logged_in' => true,
+                    'userID' => 1,
+                    'user_id' => 1,
+                    'role' => 'admin',
+                    'first_name' => 'John',
+                    'last_name' => 'Admin',
+                    'email' => $email
+                ]);
+                return redirect()->to('/enrollment-dashboard');
+            }
+        }
+
+        // Show login form
+        return view('auth/quick_login');
     }
 
     // Registration method
@@ -18,30 +70,51 @@ class Auth extends BaseController
     {
         // Check if form was submitted (POST request)
         if ($this->request->getMethod() === 'post') {
+            // Rate limiting: Check if too many registration attempts
+            $regAttempts = session()->get('reg_attempts') ?? 0;
+            $lastRegTime = session()->get('last_reg_time') ?? 0;
+            $currentTime = time();
+            
+            // Limit to 3 registration attempts per hour
+            if ($regAttempts >= 3 && ($currentTime - $lastRegTime) < 3600) {
+                session()->setFlashdata('error', 'Too many registration attempts. Please try again later.');
+                return redirect()->to('/register')->withInput();
+            }
+            
+            // Reset attempts if hour has passed
+            if ($regAttempts >= 3 && ($currentTime - $lastRegTime) >= 3600) {
+                session()->remove('reg_attempts');
+                session()->remove('last_reg_time');
+                $regAttempts = 0;
+            }
+            
             // Set validation rules
             $rules = [
                 'name' => [
-                    'rules' => 'required|min_length[3]|max_length[100]',
+                    'rules' => 'required|min_length[3]|max_length[100]|alpha_space',
                     'errors' => [
                         'required' => 'Name is required',
                         'min_length' => 'Name must be at least 3 characters',
-                        'max_length' => 'Name cannot exceed 100 characters'
+                        'max_length' => 'Name cannot exceed 100 characters',
+                        'alpha_space' => 'Name can only contain letters and spaces'
                     ]
                 ],
                 'email' => [
-                    'rules' => 'required|valid_email|is_unique[users.email]',
+                    'rules' => 'required|valid_email|is_unique[users.email]|max_length[255]',
                     'errors' => [
                         'required' => 'Email is required',
                         'valid_email' => 'Please provide a valid email address',
-                        'is_unique' => 'This email is already registered'
+                        'is_unique' => 'This email is already registered',
+                        'max_length' => 'Email cannot exceed 255 characters'
                     ]
                 ],
                 'password' => [
-                    'rules' => 'required|min_length[8]|regex_match[/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/]',
+                    'rules' => 'required|min_length[8]|max_length[255]|regex_match[/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]/]',
                     'errors' => [
                         'required' => 'Password is required',
                         'min_length' => 'Password must be at least 8 characters',
-                        'regex_match' => 'Password must contain at least one uppercase letter, one lowercase letter, and one number'
+                        'max_length' => 'Password cannot exceed 255 characters',
+                        'regex_match' => 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character'
                     ]
                 ],
                 'password_confirm' => [
@@ -55,7 +128,10 @@ class Auth extends BaseController
 
             // Validate input
             if (!$this->validate($rules)) {
-                // Validation failed, return to form with errors
+                // Increment failed registration attempts
+                session()->set('reg_attempts', $regAttempts + 1);
+                session()->set('last_reg_time', $currentTime);
+                
                 return view('auth/register', [
                     'validation' => $this->validator
                 ]);
@@ -80,9 +156,17 @@ class Auth extends BaseController
 
             // Save user to database
             if ($this->userModel->insert($userData)) {
+                // Reset registration attempts on success
+                session()->remove('reg_attempts');
+                session()->remove('last_reg_time');
+                
                 session()->setFlashdata('success', 'Registration successful! Please login.');
                 return redirect()->to('/login');
             } else {
+                // Increment failed registration attempts
+                session()->set('reg_attempts', $regAttempts + 1);
+                session()->set('last_reg_time', $currentTime);
+                
                 session()->setFlashdata('error', 'Registration failed. Please try again.');
                 return redirect()->back()->withInput();
             }
@@ -103,15 +187,33 @@ class Auth extends BaseController
         // Check if form was submitted (POST request)
         if ($this->request->getMethod() === 'POST') {
             
+            // Rate limiting: Check if too many login attempts
+            $loginAttempts = session()->get('login_attempts') ?? 0;
+            $lastAttemptTime = session()->get('last_attempt_time') ?? 0;
+            $currentTime = time();
+            
+            // Lock out after 5 failed attempts for 15 minutes
+            if ($loginAttempts >= 5 && ($currentTime - $lastAttemptTime) < 900) {
+                session()->setFlashdata('error', 'Too many failed login attempts. Please try again in 15 minutes.');
+                return redirect()->to('/login')->withInput();
+            }
+            
+            // Reset attempts if lockout period has passed
+            if ($loginAttempts >= 5 && ($currentTime - $lastAttemptTime) >= 900) {
+                session()->remove('login_attempts');
+                session()->remove('last_attempt_time');
+                $loginAttempts = 0;
+            }
+            
             // Set validation rules
             $rules = [
                 'email' => [
                     'label' => 'Email',
-                    'rules' => 'required|valid_email'
+                    'rules' => 'required|valid_email|max_length[255]'
                 ],
                 'password' => [
                     'label' => 'Password',
-                    'rules' => 'required|min_length[8]'
+                    'rules' => 'required|min_length[1]|max_length[255]'
                 ]
             ];
             
@@ -131,6 +233,10 @@ class Auth extends BaseController
 
             // Check if user exists and is active
             if (!$user) {
+                // Increment failed login attempts
+                session()->set('login_attempts', $loginAttempts + 1);
+                session()->set('last_attempt_time', $currentTime);
+                
                 session()->setFlashdata('error', 'Invalid email or password');
                 return redirect()->to('/login')->withInput();
             }
@@ -143,6 +249,9 @@ class Auth extends BaseController
 
             // Verify password
             if (password_verify($password, $user['password'])) {
+                // Password is correct, reset login attempts
+                session()->remove('login_attempts');
+                session()->remove('last_attempt_time');
                 // Password is correct, create session
                 $sessionData = [
                     'userID' => $user['id'],
@@ -166,6 +275,10 @@ class Auth extends BaseController
                 // Redirect to unified dashboard
                 return redirect()->to('/dashboard');
             } else {
+                // Invalid credentials, increment failed attempts
+                session()->set('login_attempts', $loginAttempts + 1);
+                session()->set('last_attempt_time', $currentTime);
+                
                 // Invalid credentials
                 session()->setFlashdata('error', 'Invalid email or password');
                 return redirect()->to('/login')->withInput();
@@ -214,6 +327,18 @@ class Auth extends BaseController
             'role' => $role,
             'role_data' => $roleData
         ];
+        
+        // Add enrollment data for students
+        if ($role === 'student') {
+            $data['enrolled_courses'] = $this->enrollmentModel->getUserEnrollments($userId);
+            
+            // Get all available active courses with instructor and students count
+            $data['available_courses'] = $this->courseModel->getActiveCoursesWithStats();
+            
+            // Debug: Log available courses count and data
+            log_message('debug', 'Available courses count: ' . count($data['available_courses']));
+            log_message('debug', 'User ID: ' . $userId . ', Role: ' . $role);
+        }
 
         return view('auth/dashboard', $data);
     }
@@ -269,8 +394,15 @@ class Auth extends BaseController
                 $data['total_users'] = $this->userModel->countAll();
                 $data['total_students'] = $this->userModel->where('role', 'student')->countAllResults();
                 $data['total_teachers'] = $this->userModel->where('role', 'teacher')->countAllResults();
+                $data['total_admins'] = $this->userModel->where('role', 'admin')->countAllResults();
                 $data['total_courses'] = 10; // Mock data
                 $data['pending_approvals'] = 3;
+                
+                // Fetch recent users
+                $data['recent_users'] = $this->userModel
+                    ->orderBy('created_at', 'DESC')
+                    ->limit(10)
+                    ->findAll();
                 break;
                 
             case 'teacher':

@@ -12,6 +12,7 @@ class CourseSeeder extends Seeder
             [
                 'title' => 'Introduction to Web Development',
                 'description' => 'Learn the fundamentals of web development including HTML, CSS, and JavaScript.',
+                'course_code' => 'WEBDEV',
                 'instructor_id' => 2, // Jane Instructor
                 'status' => 'published',
                 'created_at' => date('Y-m-d H:i:s'),
@@ -20,6 +21,7 @@ class CourseSeeder extends Seeder
             [
                 'title' => 'Database Design and Management',
                 'description' => 'Comprehensive course on database design, SQL, and database management systems.',
+                'course_code' => 'DBDESIGN',
                 'instructor_id' => 2, // Jane Instructor
                 'status' => 'published',
                 'created_at' => date('Y-m-d H:i:s'),
@@ -28,6 +30,7 @@ class CourseSeeder extends Seeder
             [
                 'title' => 'PHP Programming Fundamentals',
                 'description' => 'Learn PHP programming from basics to advanced concepts including OOP and frameworks.',
+                'course_code' => 'PHPFUND',
                 'instructor_id' => 2, // Jane Instructor
                 'status' => 'published',
                 'created_at' => date('Y-m-d H:i:s'),

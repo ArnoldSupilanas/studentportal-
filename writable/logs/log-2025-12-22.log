@@ -1,0 +1,1136 @@
+DEBUG - 2025-12-22 03:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:00:46 --> CSRF token verified.
+DEBUG - 2025-12-22 04:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:47 --> Available courses count: 10
+DEBUG - 2025-12-22 04:00:47 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:03:54 --> Available courses count: 10
+DEBUG - 2025-12-22 04:03:54 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:04:28 --> Available courses count: 10
+DEBUG - 2025-12-22 04:04:28 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:05:50 --> Available courses count: 10
+DEBUG - 2025-12-22 04:05:50 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:05:58 --> Available courses count: 10
+DEBUG - 2025-12-22 04:05:58 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:19 --> Available courses count: 10
+DEBUG - 2025-12-22 04:08:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:09:55 --> Available courses count: 10
+DEBUG - 2025-12-22 04:09:55 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:16:30 --> CSRF token verified.
+DEBUG - 2025-12-22 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:30 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:16:30 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:16:30 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:16:37 --> CSRF token verified.
+DEBUG - 2025-12-22 04:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:37 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:16:37 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:16:37 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:17:58 --> CSRF token verified.
+DEBUG - 2025-12-22 04:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:17:59 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:17:59 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:17:59 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:02 --> Available courses count: 10
+DEBUG - 2025-12-22 04:20:02 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:25:33 --> CSRF token verified.
+DEBUG - 2025-12-22 04:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:34 --> Available courses count: 10
+DEBUG - 2025-12-22 04:25:34 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:30:25 --> CSRF token verified.
+DEBUG - 2025-12-22 04:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:26 --> Available courses count: 10
+DEBUG - 2025-12-22 04:30:26 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:31:34 --> Available courses count: 10
+DEBUG - 2025-12-22 04:31:34 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:33:38 --> CSRF token verified.
+DEBUG - 2025-12-22 04:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:33:38 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:33:38 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:33:38 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:34:05 --> CSRF token verified.
+DEBUG - 2025-12-22 04:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:05 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:34:05 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:05 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:34:10 --> CSRF token verified.
+DEBUG - 2025-12-22 04:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:10 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:34:10 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:10 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:34:25 --> CSRF token verified.
+DEBUG - 2025-12-22 04:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:25 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:34:25 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:25 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 05:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+ERROR - 2025-12-22 05:57:21 --> mysqli_sql_exception: Table 'enrollments' already exists in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\app\Database\Migrations\2025-12-17-004606_CreateEnrollmentsTable.php(54): CodeIgniter\Database\Forge->createTable('enrollments')
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateEnrollmentsTable->up()
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-22 05:58:29 --> ErrorException: Undefined array key "make:test" in C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\GeneratorTrait.php:344
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\GeneratorTrait.php(344): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 344)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\GeneratorTrait.php(389): CodeIgniter\Commands\Generators\TestGenerator->renderTemplate(Array)
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\GeneratorTrait.php(253): CodeIgniter\Commands\Generators\TestGenerator->parseTemplate('Tests\\Materials...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\GeneratorTrait.php(399): CodeIgniter\Commands\Generators\TestGenerator->prepare('Tests\\Materials...')
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\GeneratorTrait.php(135): CodeIgniter\Commands\Generators\TestGenerator->buildContent('Tests\\Materials...')
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\Commands\Generators\TestGenerator.php(91): CodeIgniter\Commands\Generators\TestGenerator->generateClass(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Commands.php(74): CodeIgniter\Commands\Generators\TestGenerator->run(Array)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('make:test', Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+DEBUG - 2025-12-22 05:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 05:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 05:59:54 --> CSRF token verified.
+DEBUG - 2025-12-22 05:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 05:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 05:59:54 --> Available courses count: 10
+DEBUG - 2025-12-22 05:59:54 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 06:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:00:03 --> RoleAuth Filter - URI: /index.php/student/assignments
+DEBUG - 2025-12-22 06:00:03 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:00:03 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:00:03 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:00:05 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:00:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:00:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:00:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:00:06 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 06:00:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:00:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:00:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:00:12 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:00:12 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:00:12 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:00:12 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:01:13 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 06:01:13 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:01:13 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:01:13 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:01:44 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 06:01:44 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:01:44 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 06:02:07 --> CSRF token verified.
+DEBUG - 2025-12-22 06:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 06:02:20 --> CSRF token verified.
+DEBUG - 2025-12-22 06:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:02:55 --> RoleAuth Filter - URI: /index.php/teacher/students
+DEBUG - 2025-12-22 06:02:55 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:02:55 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:02:55 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+CRITICAL - 2025-12-22 06:02:55 --> ErrorException: Undefined variable $description
+[Method: GET, Route: teacher/students]
+in APPPATH\Views\teacher\add_course.php on line 40.
+ 1 APPPATH\Views\teacher\add_course.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $description', 'C:\\xampp\\htdocs\\ITE311-SUPILANAS\\app\\Views\\teacher\\add_course.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\app\\Views\\teacher\\add_course.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('teacher/add_course', [], true)
+ 5 APPPATH\Controllers\Teacher.php(255): view('teacher/add_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teacher->students()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-22 06:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:04:12 --> RoleAuth Filter - URI: /index.php/teacher/students
+DEBUG - 2025-12-22 06:04:12 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:04:12 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:04:12 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:05:00 --> RoleAuth Filter - URI: /index.php/teacher/students
+DEBUG - 2025-12-22 06:05:00 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:05:00 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:05:00 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:07:04 --> RoleAuth Filter - URI: /index.php/teacher/students
+DEBUG - 2025-12-22 06:07:04 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:07:04 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:07:04 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:08:25 --> RoleAuth Filter - URI: /index.php/teacher/viewStudent/1
+DEBUG - 2025-12-22 06:08:25 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:08:25 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:08:25 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:08:32 --> RoleAuth Filter - URI: /index.php/teacher/editStudent/1
+DEBUG - 2025-12-22 06:08:32 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:08:32 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:08:32 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+INFO - 2025-12-22 06:08:43 --> CSRF token verified.
+DEBUG - 2025-12-22 06:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - URI: /index.php/teacher/updateStudent/1
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+INFO - 2025-12-22 06:08:43 --> Student updated: {"id":"1","name":"Alice Johnson","email":"alice@email.com","course":"Mathematics 101","grade":"A-","status":"Active","phone":"","emergency_contact":"","notes":"","attendance":"","participation":"","assignments_completed":"","updated_at":"2025-12-22 06:08:43"}
+DEBUG - 2025-12-22 06:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - URI: /index.php/teacher/students
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:08:43 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:08:47 --> RoleAuth Filter - URI: /index.php/teacher/emailStudent/1
+DEBUG - 2025-12-22 06:08:47 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:08:47 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:08:47 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:08:53 --> RoleAuth Filter - URI: /index.php/teacher/students
+DEBUG - 2025-12-22 06:08:53 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:08:53 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:08:53 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:08:55 --> RoleAuth Filter - URI: /index.php/teacher/editStudent/1
+DEBUG - 2025-12-22 06:08:55 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:08:55 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:08:55 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:09:01 --> RoleAuth Filter - URI: /index.php/teacher/editStudent/1
+DEBUG - 2025-12-22 06:09:01 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:09:01 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:09:01 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:09:04 --> RoleAuth Filter - URI: /index.php/teacher/students
+DEBUG - 2025-12-22 06:09:04 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:09:04 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:09:04 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:09:21 --> RoleAuth Filter - URI: /index.php/teacher/grade-book
+DEBUG - 2025-12-22 06:09:21 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:09:21 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:09:21 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:09:26 --> RoleAuth Filter - URI: /index.php/teacher/courses
+DEBUG - 2025-12-22 06:09:26 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:09:26 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:09:26 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:11:42 --> RoleAuth Filter - URI: /index.php/teacher/courses
+DEBUG - 2025-12-22 06:11:42 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:11:42 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:11:42 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:11:45 --> RoleAuth Filter - URI: /index.php/teacher/manageCourse/1
+DEBUG - 2025-12-22 06:11:45 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:11:45 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:11:45 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:11:52 --> RoleAuth Filter - URI: /index.php/teacher/courses
+DEBUG - 2025-12-22 06:11:52 --> RoleAuth Filter - Role: teacher
+DEBUG - 2025-12-22 06:11:52 --> RoleAuth Filter - Arguments: ["teacher"]
+DEBUG - 2025-12-22 06:11:52 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:16:54 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 06:16:54 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 06:16:54 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 06:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 06:17:01 --> CSRF token verified.
+DEBUG - 2025-12-22 06:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:17:01 --> Available courses count: 10
+DEBUG - 2025-12-22 06:17:01 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 06:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:17:16 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 06:17:16 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:17:16 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:17:16 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:17:46 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:17:46 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:17:46 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:17:46 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 06:17:54 --> CSRF token verified.
+DEBUG - 2025-12-22 06:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:17:54 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 06:17:54 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:17:54 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 06:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:18:05 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:18:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:18:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:18:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:20:02 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:20:02 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:20:02 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:20:02 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:20:09 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 06:20:09 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:20:09 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:20:09 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:24:09 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:24:09 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:24:09 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:24:09 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:24:23 --> Available courses count: 10
+DEBUG - 2025-12-22 06:24:23 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 06:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:02 --> Available courses count: 10
+DEBUG - 2025-12-22 06:25:02 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 06:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:05 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 06:25:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:20 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 06:25:20 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:20 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:20 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:26 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:25:26 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:26 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:26 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:27 --> RoleAuth Filter - URI: /index.php/student/assignments
+DEBUG - 2025-12-22 06:25:27 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:27 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:27 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:30 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:25:30 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:30 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:30 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:32 --> RoleAuth Filter - URI: /index.php/student/assignments
+DEBUG - 2025-12-22 06:25:32 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:32 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:32 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:33 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 06:25:33 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:33 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:33 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:34 --> RoleAuth Filter - URI: /index.php/student/grades
+DEBUG - 2025-12-22 06:25:34 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:34 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:34 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:36 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 06:25:36 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 06:25:36 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 06:25:36 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:39 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 06:25:39 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 06:25:39 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 06:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 06:25:48 --> CSRF token verified.
+DEBUG - 2025-12-22 06:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-22 06:30:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "materials/index.php"
+[Method: GET, Route: materials]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('materials/index.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('materials/index', [], true)
+ 3 APPPATH\Controllers\Materials.php(472): view('materials/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Materials->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-22 06:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - URI: /index.php/admin/courses
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - Role: admin
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - Arguments: ["admin"]
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"1","email":"admin@lms.com"}
+DEBUG - 2025-12-22 06:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - URI: /index.php/admin/course-list
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - Role: admin
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - Arguments: ["admin"]
+DEBUG - 2025-12-22 06:38:32 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"1","email":"admin@lms.com"}
+DEBUG - 2025-12-22 06:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 06:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:04:55 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 07:04:55 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"1","email":"admin@lms.com"}
+DEBUG - 2025-12-22 07:04:55 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 07:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 07:05:04 --> CSRF token verified.
+DEBUG - 2025-12-22 07:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 07:06:55 --> CSRF token verified.
+DEBUG - 2025-12-22 07:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 07:06:55 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 07:06:55 --> FILES data: {"material_file":{"name":"Laboratory Exercise 6 COURSE ENROLLMENT SYSTEM._pdf.urlgd.com (1).pdf","full_path":"Laboratory Exercise 6 COURSE ENROLLMENT SYSTEM._pdf.urlgd.com (1).pdf","type":"application\/pdf","tmp_name":"C:\\xampp\\tmp\\phpF32D.tmp","error":0,"size":4318315}}
+INFO - 2025-12-22 07:06:55 --> POST data: []
+INFO - 2025-12-22 07:06:56 --> Validation passed
+INFO - 2025-12-22 07:06:56 --> File object created: true
+INFO - 2025-12-22 07:06:56 --> File is valid, name: Laboratory Exercise 6 COURSE ENROLLMENT SYSTEM._pdf.urlgd.com (1).pdf, size: 4318315
+ERROR - 2025-12-22 07:06:56 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(118): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('1')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 07:06:56 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2025-12-22 07:14:19 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: materials/upload/1]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('materials/upload/1', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-22 07:17:45 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: materials/upload/1]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('materials/upload/1', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-22 07:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 07:18:12 --> CSRF token verified.
+DEBUG - 2025-12-22 07:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 07:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 07:43:04 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 07:43:04 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\phpAFD.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 07:43:04 --> POST data: {"csrf_test_name":"0fb2386a72862d6d30e74b6ed88731fc3e989192e1aaed55dd3ef5584f212060"}
+INFO - 2025-12-22 07:43:04 --> Validation passed
+INFO - 2025-12-22 07:43:04 --> File object created: true
+INFO - 2025-12-22 07:43:04 --> File is valid, name: VARCHAR(255).png, size: 149595
+ERROR - 2025-12-22 07:43:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(118): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('1')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 07:43:04 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+DEBUG - 2025-12-22 08:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:26:03 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:26:03 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php66FB.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:26:03 --> POST data: {"csrf_test_name":"0fb2386a72862d6d30e74b6ed88731fc3e989192e1aaed55dd3ef5584f212060"}
+INFO - 2025-12-22 08:26:03 --> Validation passed
+INFO - 2025-12-22 08:26:03 --> File object created: true
+INFO - 2025-12-22 08:26:03 --> File is valid, name: VARCHAR(255).png, size: 149595
+ERROR - 2025-12-22 08:26:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(118): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('1')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 08:26:03 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+DEBUG - 2025-12-22 08:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:26:07 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:26:07 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php7554.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:26:07 --> POST data: {"csrf_test_name":"0fb2386a72862d6d30e74b6ed88731fc3e989192e1aaed55dd3ef5584f212060"}
+INFO - 2025-12-22 08:26:07 --> Validation passed
+INFO - 2025-12-22 08:26:07 --> File object created: true
+INFO - 2025-12-22 08:26:07 --> File is valid, name: VARCHAR(255).png, size: 149595
+ERROR - 2025-12-22 08:26:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(118): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('1')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 08:26:07 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2025-12-22 08:27:45 --> mysqli_sql_exception: Table 'enrollments' already exists in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\app\Database\Migrations\2025-12-17-004606_CreateEnrollmentsTable.php(54): CodeIgniter\Database\Forge->createTable('enrollments')
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateEnrollmentsTable->up()
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-22 08:27:47 --> mysqli_sql_exception: Table 'enrollments' already exists in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `e...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `e...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `e...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `e...')
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\app\Database\Migrations\2025-12-17-004606_CreateEnrollmentsTable.php(54): CodeIgniter\Database\Forge->createTable('enrollments')
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateEnrollmentsTable->up()
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-12-22 08:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:33:47 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:33:47 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php793B.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:33:47 --> POST data: {"csrf_test_name":"0fb2386a72862d6d30e74b6ed88731fc3e989192e1aaed55dd3ef5584f212060"}
+INFO - 2025-12-22 08:33:47 --> Validation passed
+INFO - 2025-12-22 08:33:47 --> File object created: true
+INFO - 2025-12-22 08:33:47 --> File is valid, name: VARCHAR(255).png, size: 149595
+ERROR - 2025-12-22 08:33:47 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(119): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('1')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 08:33:47 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+DEBUG - 2025-12-22 08:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:33:50 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:33:50 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php8448.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:33:50 --> POST data: {"csrf_test_name":"0fb2386a72862d6d30e74b6ed88731fc3e989192e1aaed55dd3ef5584f212060"}
+INFO - 2025-12-22 08:33:50 --> Validation passed
+INFO - 2025-12-22 08:33:50 --> File object created: true
+INFO - 2025-12-22 08:33:50 --> File is valid, name: VARCHAR(255).png, size: 149595
+ERROR - 2025-12-22 08:33:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(119): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('1')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 08:33:50 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+DEBUG - 2025-12-22 08:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:33:59 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:33:59 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\phpAB0B.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:33:59 --> POST data: {"csrf_test_name":"269fefa26e302c41b746e9b8bd3de6e917b5465afd1cec795a9f578e2a9bf775"}
+INFO - 2025-12-22 08:33:59 --> Validation passed
+INFO - 2025-12-22 08:34:00 --> File object created: true
+INFO - 2025-12-22 08:34:00 --> File is valid, name: VARCHAR(255).png, size: 149595
+ERROR - 2025-12-22 08:34:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(119): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('1')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 08:34:00 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+DEBUG - 2025-12-22 08:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:35:36 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:35:36 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php2306.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:35:36 --> POST data: {"csrf_test_name":"269fefa26e302c41b746e9b8bd3de6e917b5465afd1cec795a9f578e2a9bf775"}
+INFO - 2025-12-22 08:35:36 --> Validation passed
+INFO - 2025-12-22 08:35:36 --> File object created: true
+INFO - 2025-12-22 08:35:36 --> File is valid, name: VARCHAR(255).png, size: 149595
+DEBUG - 2025-12-22 08:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:35:53 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:35:53 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php6734.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:35:53 --> POST data: {"csrf_test_name":"98fcb15ea4b35996714e8c7d7a76c2f4a9d618a6379f99ae9c97324bedd0d368"}
+INFO - 2025-12-22 08:35:53 --> Validation passed
+INFO - 2025-12-22 08:35:53 --> File object created: true
+INFO - 2025-12-22 08:35:53 --> File is valid, name: VARCHAR(255).png, size: 149595
+DEBUG - 2025-12-22 08:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:37:47 --> Materials retrieved for course 1: 2 items
+DEBUG - 2025-12-22 08:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:38:07 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 08:38:07 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php7238.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:38:07 --> POST data: {"csrf_test_name":"140a258782798e627005a309d91a433d25208c7f11554e5a9ddc1d3f4ebc52a1"}
+INFO - 2025-12-22 08:38:07 --> Validation passed
+INFO - 2025-12-22 08:38:07 --> File object created: true
+INFO - 2025-12-22 08:38:07 --> File is valid, name: VARCHAR(255).png, size: 149595
+DEBUG - 2025-12-22 08:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:38:07 --> Materials retrieved for course 1: 3 items
+DEBUG - 2025-12-22 08:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:38:28 --> Material downloaded: Material ID 11 by User ID 1 (Role: admin) from Course ID 1
+DEBUG - 2025-12-22 08:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:41:40 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 08:41:40 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"1","email":"admin@lms.com"}
+DEBUG - 2025-12-22 08:41:40 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 08:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:41:51 --> CSRF token verified.
+DEBUG - 2025-12-22 08:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:41:51 --> Available courses count: 17
+DEBUG - 2025-12-22 08:41:51 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 08:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:42:28 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 08:42:28 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 08:42:28 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 08:42:28 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 08:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:42:35 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 08:42:35 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 08:42:35 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 08:42:35 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 08:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:42:54 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 08:42:54 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 08:42:54 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 08:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:43:04 --> CSRF token verified.
+DEBUG - 2025-12-22 08:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:44:15 --> Material downloaded: Material ID 11 by User ID 2 (Role: teacher) from Course ID 1
+DEBUG - 2025-12-22 08:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:49:16 --> Materials retrieved for course 1: 2 items
+DEBUG - 2025-12-22 08:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:50:13 --> Materials retrieved for course 2: 0 items
+DEBUG - 2025-12-22 08:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:50:29 --> Upload POST request received for course_id: 2
+INFO - 2025-12-22 08:50:29 --> FILES data: {"material_file":{"name":"VARCHAR(255) (1).png","full_path":"VARCHAR(255) (1).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\phpC3EE.tmp","error":0,"size":16}}
+INFO - 2025-12-22 08:50:29 --> POST data: {"csrf_test_name":"20dafd4a1b982179cce666ca40051e5411f054b288b4e141213fd8fcd7a30fc8"}
+ERROR - 2025-12-22 08:50:29 --> Validation errors: {"material_file":"Invalid file type. Allowed types: pdf, doc, docx, ppt, pptx, txt, jpg, jpeg, png, gif, zip, rar"}
+INFO - 2025-12-22 08:50:29 --> Materials retrieved for course 2: 0 items
+DEBUG - 2025-12-22 08:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:50:53 --> Upload POST request received for course_id: 2
+INFO - 2025-12-22 08:50:53 --> FILES data: {"material_file":{"name":"VARCHAR(255) (2).png","full_path":"VARCHAR(255) (2).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php21FD.tmp","error":0,"size":16}}
+INFO - 2025-12-22 08:50:53 --> POST data: {"csrf_test_name":"8eec3f0e058ebc586d9b950386ad4dfbbfc696f696a27c6080422b35110b5c67"}
+ERROR - 2025-12-22 08:50:53 --> Validation errors: {"material_file":"Invalid file type. Allowed types: pdf, doc, docx, ppt, pptx, txt, jpg, jpeg, png, gif, zip, rar"}
+INFO - 2025-12-22 08:50:53 --> Materials retrieved for course 2: 0 items
+DEBUG - 2025-12-22 08:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:51:44 --> Upload POST request received for course_id: 2
+INFO - 2025-12-22 08:51:44 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\phpEACC.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:51:44 --> POST data: {"csrf_test_name":"58c36e1a36b782abf3d6064e4fa2d63c69e9c7e2a59b42931e0fb878d804c7a0"}
+INFO - 2025-12-22 08:51:44 --> Validation passed
+INFO - 2025-12-22 08:51:44 --> File object created: true
+INFO - 2025-12-22 08:51:44 --> File is valid, name: VARCHAR(255).png, size: 149595
+ERROR - 2025-12-22 08:51:44 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\app\Models\MaterialModel.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Materials.php(119): App\Models\MaterialModel->insertMaterial(Array)
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Materials->upload('2')
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materials))
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+ERROR - 2025-12-22 08:51:44 --> Error inserting material: Cannot add or update a child row: a foreign key constraint fails (`lms_supilanas`.`materials`, CONSTRAINT `materials_course_id_foreign` FOREIGN KEY (`course_id`) REFERENCES `courses` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+INFO - 2025-12-22 08:51:44 --> Materials retrieved for course 2: 0 items
+DEBUG - 2025-12-22 08:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:52:46 --> Upload POST request received for course_id: 2
+INFO - 2025-12-22 08:52:46 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\phpDC90.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:52:46 --> POST data: {"csrf_test_name":"58c36e1a36b782abf3d6064e4fa2d63c69e9c7e2a59b42931e0fb878d804c7a0"}
+INFO - 2025-12-22 08:52:46 --> Validation passed
+INFO - 2025-12-22 08:52:46 --> File object created: true
+INFO - 2025-12-22 08:52:46 --> File is valid, name: VARCHAR(255).png, size: 149595
+DEBUG - 2025-12-22 08:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:52:46 --> Materials retrieved for course 2: 1 items
+DEBUG - 2025-12-22 08:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:52:50 --> Materials retrieved for course 2: 1 items
+DEBUG - 2025-12-22 08:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:53:08 --> Materials retrieved for course 1: 1 items
+DEBUG - 2025-12-22 08:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:53:20 --> Materials retrieved for course 3: 0 items
+DEBUG - 2025-12-22 08:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:53:28 --> Upload POST request received for course_id: 3
+INFO - 2025-12-22 08:53:28 --> FILES data: {"material_file":{"name":"VARCHAR(255) (1).png","full_path":"VARCHAR(255) (1).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php816C.tmp","error":0,"size":16}}
+INFO - 2025-12-22 08:53:28 --> POST data: {"csrf_test_name":"c4b2bf9f8c0a686e23398b8393e61819f59816671f26a856cee035b504400985"}
+ERROR - 2025-12-22 08:53:28 --> Validation errors: {"material_file":"Invalid file type. Allowed types: pdf, doc, docx, ppt, pptx, txt, jpg, jpeg, png, gif, zip, rar"}
+INFO - 2025-12-22 08:53:28 --> Materials retrieved for course 3: 0 items
+DEBUG - 2025-12-22 08:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:53:43 --> Upload POST request received for course_id: 3
+INFO - 2025-12-22 08:53:43 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\phpB955.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 08:53:43 --> POST data: {"csrf_test_name":"a82cbca9078a7acf89b0069b3c6cc16b9906155194a6baf76469b8adabcad0f7"}
+INFO - 2025-12-22 08:53:43 --> Validation passed
+INFO - 2025-12-22 08:53:43 --> File object created: true
+INFO - 2025-12-22 08:53:43 --> File is valid, name: VARCHAR(255).png, size: 149595
+DEBUG - 2025-12-22 08:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:53:43 --> Materials retrieved for course 3: 1 items
+DEBUG - 2025-12-22 08:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:53:46 --> Materials retrieved for course 3: 1 items
+DEBUG - 2025-12-22 08:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:05 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 08:57:05 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"2","email":"instructor@lms.com"}
+DEBUG - 2025-12-22 08:57:05 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 08:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 08:57:12 --> CSRF token verified.
+DEBUG - 2025-12-22 08:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:12 --> Available courses count: 19
+DEBUG - 2025-12-22 08:57:12 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 08:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 08:57:49 --> Available courses count: 19
+DEBUG - 2025-12-22 08:57:49 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 08:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:47 --> Available courses count: 19
+DEBUG - 2025-12-22 09:08:47 --> User ID: 3, Role: student
+INFO - 2025-12-22 09:08:58 --> CSRF token verified.
+DEBUG - 2025-12-22 09:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:08:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 09:08:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 09:08:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 09:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:09:06 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 09:09:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 09:09:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 09:09:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 09:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:09:10 --> Available courses count: 19
+DEBUG - 2025-12-22 09:09:10 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 09:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:11:12 --> Available courses count: 19
+DEBUG - 2025-12-22 09:11:12 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 09:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-22 09:11:22 --> Material file not found: C:\xampp\htdocs\ITE311-SUPILANAS\writable\uploads/materials/5/intro_cs_materials.txt
+DEBUG - 2025-12-22 09:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:11:22 --> Available courses count: 19
+DEBUG - 2025-12-22 09:11:22 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 09:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:11:31 --> Available courses count: 19
+DEBUG - 2025-12-22 09:11:31 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 09:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:13:02 --> Material downloaded: Material ID 15 by User ID 3 (Role: student) from Course ID 5
+DEBUG - 2025-12-22 09:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:15:07 --> Material downloaded: Material ID 16 by User ID 3 (Role: student) from Course ID 6
+DEBUG - 2025-12-22 09:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:22:46 --> Available courses count: 19
+DEBUG - 2025-12-22 09:22:46 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 09:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:25:39 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 09:25:39 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 09:25:39 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 09:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:25:45 --> CSRF token verified.
+DEBUG - 2025-12-22 09:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:26:33 --> Materials retrieved for course 1: 1 items
+DEBUG - 2025-12-22 09:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:27:03 --> Materials retrieved for course 1: 1 items
+DEBUG - 2025-12-22 09:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:28:19 --> Materials retrieved for course 1: 1 items
+DEBUG - 2025-12-22 09:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:29:01 --> Materials retrieved for course 1: 1 items
+DEBUG - 2025-12-22 09:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:29:16 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 09:29:16 --> FILES data: {"material_file":{"name":"VARCHAR(255) (2).png","full_path":"VARCHAR(255) (2).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php47EE.tmp","error":0,"size":16}}
+INFO - 2025-12-22 09:29:16 --> POST data: {"csrf_test_name":"0d3eaad485810640463c20ba6426c5951023b434e970e42035242fe87c77e1bb"}
+ERROR - 2025-12-22 09:29:16 --> Validation errors: {"material_file":"Invalid file type. Allowed types: pdf, doc, docx, ppt, pptx, txt, jpg, jpeg, png, gif, zip, rar"}
+INFO - 2025-12-22 09:29:16 --> Materials retrieved for course 1: 1 items
+DEBUG - 2025-12-22 09:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:29:33 --> Upload POST request received for course_id: 1
+INFO - 2025-12-22 09:29:33 --> FILES data: {"material_file":{"name":"VARCHAR(255).png","full_path":"VARCHAR(255).png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php8900.tmp","error":0,"size":149595}}
+INFO - 2025-12-22 09:29:33 --> POST data: {"csrf_test_name":"fbbdc94b0b1afe65431fa8ec7a99e066e6a0d7ab67eb1c053007a7be62c8c448"}
+INFO - 2025-12-22 09:29:33 --> Validation passed
+INFO - 2025-12-22 09:29:33 --> File object created: true
+INFO - 2025-12-22 09:29:33 --> File is valid, name: VARCHAR(255).png, size: 149595
+DEBUG - 2025-12-22 09:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:29:33 --> Materials retrieved for course 1: 2 items
+DEBUG - 2025-12-22 09:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:30:03 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 09:30:03 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"1","email":"admin@lms.com"}
+DEBUG - 2025-12-22 09:30:03 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 09:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 09:30:11 --> CSRF token verified.
+DEBUG - 2025-12-22 09:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 09:30:11 --> Available courses count: 19
+DEBUG - 2025-12-22 09:30:11 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 09:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

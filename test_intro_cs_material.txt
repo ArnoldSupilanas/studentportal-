@@ -1,0 +1,44 @@
+Introduction to Computer Science - Course Materials
+
+===============================================
+
+Week 1: Computer Science Fundamentals
+-------------------------------------
+- History of Computing
+- Computer Architecture
+- Number Systems (Binary, Hexadecimal)
+- Logic Gates and Boolean Algebra
+
+Week 2: Programming Concepts
+---------------------------
+- Algorithm Design
+- Pseudocode and Flowcharts
+- Introduction to Programming Languages
+- Variables and Data Types
+
+Week 3: Data Structures
+----------------------
+- Arrays and Lists
+- Stacks and Queues
+- Trees and Graphs
+- Big O Notation
+
+Week 4: Software Development
+----------------------------
+- Software Development Lifecycle
+- Version Control (Git)
+- Testing and Debugging
+- Documentation Best Practices
+
+Assignment Guidelines:
+-----------------------
+1. Submit assignments on time
+2. Follow coding standards
+3. Include proper documentation
+4. Test your code thoroughly
+
+Instructor: Jane Doe
+Email: jane.instructor@lms.com
+Office Hours: Mon/Wed/Fri 2:00-4:00 PM
+
+This material is for testing the student portal download functionality.

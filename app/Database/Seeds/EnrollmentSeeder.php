@@ -10,7 +10,7 @@ class EnrollmentSeeder extends Seeder
     {
         $data = [
             [
-                'student_id' => 3, // Bob Student
+                'user_id' => 3, // Bob Student
                 'course_id' => 1, // Introduction to Web Development
                 'enrollment_date' => date('Y-m-d H:i:s'),
                 'status' => 'enrolled',
@@ -19,7 +19,7 @@ class EnrollmentSeeder extends Seeder
                 'updated_at' => date('Y-m-d H:i:s'),
             ],
             [
-                'student_id' => 4, // Alice Smith
+                'user_id' => 4, // Alice Smith
                 'course_id' => 1, // Introduction to Web Development
                 'enrollment_date' => date('Y-m-d H:i:s'),
                 'status' => 'enrolled',
@@ -28,7 +28,7 @@ class EnrollmentSeeder extends Seeder
                 'updated_at' => date('Y-m-d H:i:s'),
             ],
             [
-                'student_id' => 5, // Charlie Brown
+                'user_id' => 5, // Charlie Brown
                 'course_id' => 2, // Database Design and Management
                 'enrollment_date' => date('Y-m-d H:i:s'),
                 'status' => 'enrolled',
@@ -37,7 +37,7 @@ class EnrollmentSeeder extends Seeder
                 'updated_at' => date('Y-m-d H:i:s'),
             ],
             [
-                'student_id' => 3, // Bob Student
+                'user_id' => 3, // Bob Student
                 'course_id' => 3, // PHP Programming Fundamentals
                 'enrollment_date' => date('Y-m-d H:i:s'),
                 'status' => 'enrolled',

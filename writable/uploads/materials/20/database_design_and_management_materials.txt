@@ -1,0 +1,14 @@
+Database Design and Management - Course Materials
+================================
+
+This is course material for Database Design and Management.
+Created: 2025-12-22 10:15:44
+
+Course Topics:
+- Fundamental concepts
+- Practical applications
+- Hands-on exercises
+- Final projects
+
+Instructor: System Admin
+Contact: admin@lms.com

@@ -12,10 +12,10 @@ class UserModel extends Model
     protected $returnType = 'array';
     protected $useSoftDeletes = false;
     protected $protectFields = true;
-    protected $allowedFields = ['first_name', 'last_name', 'email', 'password', 'role', 'status', 'created_at', 'updated_at'];
+    protected $allowedFields = ['first_name', 'last_name', 'email', 'password', 'role', 'status'];
 
     // Dates
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $dateFormat = 'datetime';
     protected $createdField = 'created_at';
     protected $updatedField = 'updated_at';
@@ -26,9 +26,9 @@ class UserModel extends Model
         'first_name' => 'required|max_length[100]',
         'last_name' => 'required|max_length[100]',
         'email' => 'required|valid_email|is_unique[users.email]',
-        'password' => 'required|min_length[6]',
-        'role' => 'required|in_list[admin,instructor,student]',
-        'status' => 'required|in_list[active,inactive,suspended]'
+        'password' => 'required|min_length[8]',
+        'role' => 'in_list[admin,teacher,student]',
+        'status' => 'in_list[active,inactive,suspended]'
     ];
     protected $validationMessages = [];
     protected $skipValidation = false;

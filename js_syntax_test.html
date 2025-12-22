@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Syntax Test</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div id="alert-container" style="position: fixed; top: 20px; right: 20px; z-index: 1050;"></div>
+    
+    <h1>JavaScript Syntax Test</h1>
+    <p>Check browser console for syntax errors...</p>
+    
+    <button onclick="enrollInCourse(1)">Test Enrollment</button>
+    <button onclick="unenrollFromCourse(1)">Test Unenrollment</button>
+
+    <script>
+        // Course enrollment functionality with Bootstrap modal
+        function enrollInCourse(courseId) {
+            console.log('enrollInCourse called with courseId:', courseId);
+            alert('Enrollment function works!');
+        }
+
+        // Handle enrollment confirmation
+        $(document).on('click', '#confirmEnrollBtn', function() {
+            var courseId = $(this).data('course-id');
+            console.log('Enrollment confirmed for courseId:', courseId);
+        });
+
+        function unenrollFromCourse(courseId) {
+            console.log('unenrollFromCourse called with courseId:', courseId);
+            alert('Unenrollment function works!');
+        }
+
+        // Handle unenrollment confirmation
+        $(document).on('click', '#confirmUnenrollBtn', function() {
+            var courseId = $(this).data('course-id');
+            console.log('Unenrollment confirmed for courseId:', courseId);
+        });
+
+        // Show Bootstrap alert
+        function showAlert(type, message) {
+            var alertHtml = '<div class="alert alert-' + type + ' alert-dismissible fade show" role="alert">' +
+                           '<i class="bi bi-' + (type === 'success' ? 'check-circle' : 'exclamation-triangle') + '"></i> ' +
+                           message +
+                           '<button type="button" class="btn-close" data-bs-dismiss="alert"></button>' +
+                           '</div>';
+            
+            $('#alert-container').append(alertHtml);
+            
+            // Auto-dismiss after 5 seconds
+            setTimeout(function() {
+                $('.alert').alert('close');
+            }, 5000);
+        }
+
+        // Add course to enrolled courses section
+        function addCourseToEnrolled(courseData) {
+            var enrolledCourseHtml = '<div class="col-md-4 mb-3">' +
+                '<div class="card h-100">' +
+                    '<div class="card-body">' +
+                        '<h6 class="card-title text-primary">' +
+                            '<i class="bi bi-book me-2"></i>' +
+                            courseData.title +
+                        '</h6>' +
+                        '<p class="card-text text-muted small">' +
+                            courseData.description +
+                        '</p>' +
+                        '<div class="d-flex justify-content-between align-items-center">' +
+                            '<small class="text-muted">' +
+                                '<i class="bi bi-calendar me-1"></i>' +
+                                'Enrolled: ' + courseData.enrollment_date +
+                            '</small>' +
+                            '<button class="btn btn-sm btn-outline-danger" onclick="unenrollFromCourse(' + courseData.id + ')">' +
+                                '<i class="bi bi-x-circle me-1"></i>' +
+                                'Unenroll' +
+                            '</button>' +
+                        '</div>' +
+                    '</div>' +
+                '</div>' +
+            '</div>';
+            
+            $('#enrolled-courses .row').append(enrolledCourseHtml);
+        }
+
+        // Remove course from enrolled courses section
+        function removeCourseFromEnrolled(courseId) {
+            $('#enrolled-courses .row').find('[data-course-id="' + courseId + '"]').closest('.col-md-4').remove();
+        }
+
+        // Add course to enrolled courses section dynamically (updated version)
+        function addCourseToEnrolledNew(courseData) {
+            var courseHtml = '<div class="col-md-4 mb-3">' +
+                            '<div class="card h-100">' +
+                            '<div class="card-body">' +
+                            '<h6 class="card-title text-primary">' +
+                            '<i class="bi bi-book me-2"></i>' + courseData.title +
+                            '</h6>' +
+                            '<p class="card-text text-muted small">' +
+                            (courseData.description ? courseData.description.substring(0, 80) + '...' : '') +
+                            '</p>' +
+                            '<div class="d-flex justify-content-between align-items-center">' +
+                            '<small class="text-muted">' +
+                            '<i class="bi bi-calendar me-1"></i>' +
+                            'Enrolled: Just now' +
+                            '</small>' +
+                            '<button class="btn btn-sm btn-outline-danger" onclick="unenrollFromCourse(' + courseData.course_id + ')">' +
+                            '<i class="bi bi-x-circle me-1"></i>' +
+                            'Unenroll' +
+                            '</button>' +
+                            '</div>' +
+                            '</div>' +
+                            '</div>' +
+                            '</div>';
+            
+            // Add to enrolled courses section
+            $('.enrolled-courses-container .row').append(courseHtml);
+            
+            // Update empty state message if needed
+            if ($('.enrolled-courses-container .text-center').length > 0) {
+                $('.enrolled-courses-container .text-center').remove();
+            }
+        }
+
+        // Remove course from enrolled courses section dynamically
+        function removeCourseFromEnrolledNew(courseId) {
+            // Find and remove course card
+            $('.enrolled-courses-container button[onclick="unenrollFromCourse(' + courseId + ')"]').closest('.col-md-4').fadeOut(300, function() {
+                $(this).remove();
+                
+                // Show empty state message if no courses left
+                if ($('.enrolled-courses-container .col-md-4').length === 0) {
+                    $('.enrolled-courses-container .row').html(
+                        '<div class="text-center py-4">' +
+                        '<i class="bi bi-inbox fa-3x text-muted mb-3"></i>' +
+                        '<p class="text-muted">You are not enrolled in any courses yet.</p>' +
+                        '<p class="text-muted">Browse the available courses below to get started!</p>' +
+                        '</div>'
+                    );
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            console.log('JavaScript loaded successfully - no syntax errors detected!');
+            
+            // Add data-course-id attributes to enroll buttons for easier management
+            $('.btn-primary').each(function() {
+                var onclick = $(this).attr('onclick');
+                if (onclick && onclick.includes('enrollInCourse')) {
+                    var courseId = onclick.match(/enrollInCourse\((\d+)\)/);
+                    if (courseId) {
+                        $(this).attr('data-course-id', courseId[1]);
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

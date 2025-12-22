@@ -62,6 +62,9 @@
                                         <i class="fas fa-book fa-2x text-primary mb-2"></i>
                                         <h5>My Courses</h5>
                                         <p class="text-muted">Manage your courses</p>
+                                        <a href="<?= base_url('teacher/courses') ?>" class="btn btn-primary btn-sm mt-2">
+                                            <i class="fas fa-arrow-right me-1"></i>View Courses
+                                        </a>
                                     </div>
                                 </div>
                             </div>

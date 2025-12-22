@@ -22,8 +22,8 @@ class Course extends BaseController
     public function enroll()
     {
         // Check if user is logged in
-        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in');
-        $userId = session()->get('userID') ?? session()->get('user_id');
+        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in') || session()->get('isLoggedIn');
+        $userId = session()->get('userID') ?? session()->get('user_id') ?? session()->get('id') ?? session()->get('uid');
         
         if (!$isLoggedIn || !$userId) {
             return $this->response->setJSON([
@@ -51,12 +51,25 @@ class Course extends BaseController
             ]);
         }
 
-        // Check if user is already enrolled
         if ($this->enrollmentModel->isAlreadyEnrolled($userId, $courseId)) {
-            return $this->response->setJSON([
-                'success' => false,
-                'message' => 'You are already enrolled in this course'
+            $existing = $this->enrollmentModel->getEnrollment($userId, $courseId);
+            $courseDetails = $this->courseModel->find($courseId);
+            
+            $response = $this->response->setJSON([
+                'success' => true,
+                'message' => 'You are already enrolled in this course',
+                'enrollment_id' => (int) ($existing['id'] ?? 0),
+                'course_data' => [
+                    'course_id' => (int) $courseId,
+                    'title' => $courseDetails['title'] ?? '',
+                    'description' => $courseDetails['description'] ?? ''
+                ],
+                'csrf_hash' => csrf_hash()
             ]);
+            
+            // Set CSRF header for AJAX requests
+            $response->setHeader('X-CSRF-TOKEN', csrf_hash());
+            return $response;
         }
 
         // Prepare enrollment data
@@ -74,16 +87,21 @@ class Course extends BaseController
                 // Get course details for response
                 $courseDetails = $this->courseModel->find($courseId);
                 
-                return $this->response->setJSON([
+                $response = $this->response->setJSON([
                     'success' => true,
-                    'message' => 'Successfully enrolled in ' . $course['title'],
+                    'message' => 'Successfully enrolled in ' . $courseDetails['title'],
                     'enrollment_id' => $enrollmentId,
                     'course_data' => [
                         'course_id' => $courseId,
-                        'title' => $courseDetails['title'],
-                        'description' => $courseDetails['description']
-                    ]
+                        'title' => $courseDetails['title'] ?? '',
+                        'description' => $courseDetails['description'] ?? ''
+                    ],
+                    'csrf_hash' => csrf_hash()
                 ]);
+                
+                // Set CSRF header for AJAX requests
+                $response->setHeader('X-CSRF-TOKEN', csrf_hash());
+                return $response;
             } else {
                 return $this->response->setJSON([
                     'success' => false,
@@ -91,9 +109,40 @@ class Course extends BaseController
                 ]);
             }
         } catch (\Exception $e) {
+            $msg = $e->getMessage();
+            if (stripos($msg, 'Duplicate entry') !== false) {
+                $existing = $this->enrollmentModel->getEnrollment($userId, $courseId);
+                if ($existing) {
+                    if (!isset($existing['status']) || $existing['status'] !== 'enrolled') {
+                        $this->enrollmentModel->update($existing['id'], [
+                            'status' => 'enrolled',
+                            'enrollment_date' => date('Y-m-d H:i:s'),
+                            'progress' => 0.00
+                        ]);
+                    }
+
+                    $courseDetails = $this->courseModel->find($courseId);
+                    return $this->response->setJSON([
+                        'success' => true,
+                        'message' => 'Successfully enrolled in ' . $courseDetails['title'],
+                        'enrollment_id' => (int) $existing['id'],
+                        'course_data' => [
+                            'course_id' => $courseId,
+                            'title' => $courseDetails['title'],
+                            'description' => $courseDetails['description']
+                        ]
+                    ]);
+                }
+
+                return $this->response->setJSON([
+                    'success' => false,
+                    'message' => 'You are already enrolled in this course'
+                ]);
+            }
+
             return $this->response->setJSON([
                 'success' => false,
-                'message' => 'An error occurred while enrolling: ' . $e->getMessage()
+                'message' => 'An error occurred while enrolling: ' . $msg
             ]);
         }
     }
@@ -104,8 +153,8 @@ class Course extends BaseController
     public function unenroll()
     {
         // Check if user is logged in
-        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in');
-        $userId = session()->get('userID') ?? session()->get('user_id');
+        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in') || session()->get('isLoggedIn');
+        $userId = session()->get('userID') ?? session()->get('user_id') ?? session()->get('id') ?? session()->get('uid');
         
         if (!$isLoggedIn || !$userId) {
             return $this->response->setJSON([
@@ -137,10 +186,15 @@ class Course extends BaseController
             $result = $this->enrollmentModel->dropEnrollment($userId, $courseId);
             
             if ($result) {
-                return $this->response->setJSON([
+                $response = $this->response->setJSON([
                     'success' => true,
-                    'message' => 'Successfully unenrolled from course'
+                    'message' => 'Successfully unenrolled from course',
+                    'csrf_hash' => csrf_hash()
                 ]);
+                
+                // Set CSRF header for AJAX requests
+                $response->setHeader('X-CSRF-TOKEN', csrf_hash());
+                return $response;
             } else {
                 return $this->response->setJSON([
                     'success' => false,
@@ -150,7 +204,7 @@ class Course extends BaseController
         } catch (\Exception $e) {
             return $this->response->setJSON([
                 'success' => false,
-                'message' => 'An error occurred while unenrolling: ' . $e->getMessage()
+                'message' => 'An error occurred: ' . $e->getMessage()
             ]);
         }
     }
@@ -161,8 +215,8 @@ class Course extends BaseController
     public function getEnrolledCourses()
     {
         // Check if user is logged in
-        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in');
-        $userId = session()->get('userID') ?? session()->get('user_id');
+        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in') || session()->get('isLoggedIn');
+        $userId = session()->get('userID') ?? session()->get('user_id') ?? session()->get('id') ?? session()->get('uid');
         
         if (!$isLoggedIn || !$userId) {
             return $this->response->setJSON([
@@ -192,8 +246,8 @@ class Course extends BaseController
     public function index()
     {
         // Authorization check
-        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in');
-        $userId = session()->get('userID') ?? session()->get('user_id');
+        $isLoggedIn = session()->get('is_logged_in') || session()->get('logged_in') || session()->get('isLoggedIn');
+        $userId = session()->get('userID') ?? session()->get('user_id') ?? session()->get('id') ?? session()->get('uid');
         
         if (!$isLoggedIn || !$userId) {
             return redirect()->to('/login');

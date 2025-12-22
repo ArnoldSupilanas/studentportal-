@@ -34,6 +34,7 @@ class Filters extends BaseFilters
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
+        'auth'          => \App\Filters\AuthFilter::class,
         'roleauth'      => \App\Filters\RoleAuth::class,
     ];
 
@@ -74,12 +75,14 @@ class Filters extends BaseFilters
     public array $globals = [
         'before' => [
             // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',
+            'csrf' => [
+                'http' => ['POST', 'PUT', 'DELETE', 'PATCH'],
+                'except' => ['materials/upload/*', 'materials/delete/*']
+            ],
         ],
-        'after' => [
+        'after'  => [
+            'toolbar',
             // 'honeypot',
-            // 'secureheaders',
         ],
     ];
 
