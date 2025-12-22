@@ -1,0 +1,214 @@
+DEBUG - 2025-12-22 03:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 03:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:00:46 --> CSRF token verified.
+DEBUG - 2025-12-22 04:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:00:47 --> Available courses count: 10
+DEBUG - 2025-12-22 04:00:47 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:03:54 --> Available courses count: 10
+DEBUG - 2025-12-22 04:03:54 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:04:28 --> Available courses count: 10
+DEBUG - 2025-12-22 04:04:28 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:05:50 --> Available courses count: 10
+DEBUG - 2025-12-22 04:05:50 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:05:58 --> Available courses count: 10
+DEBUG - 2025-12-22 04:05:58 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:06:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:06:10 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:07:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:08:19 --> Available courses count: 10
+DEBUG - 2025-12-22 04:08:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:09:55 --> Available courses count: 10
+DEBUG - 2025-12-22 04:09:55 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:10:03 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:14:23 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:14:25 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:16:30 --> CSRF token verified.
+DEBUG - 2025-12-22 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:30 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:16:30 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:16:30 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:16:33 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:16:37 --> CSRF token verified.
+DEBUG - 2025-12-22 04:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:37 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:16:37 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:16:37 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:16:39 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:17:40 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:17:58 --> CSRF token verified.
+DEBUG - 2025-12-22 04:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:17:59 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:17:59 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:17:59 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:18:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:02 --> Available courses count: 10
+DEBUG - 2025-12-22 04:20:02 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:05 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:11 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:34 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:20:40 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:25:33 --> CSRF token verified.
+DEBUG - 2025-12-22 04:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:34 --> Available courses count: 10
+DEBUG - 2025-12-22 04:25:34 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:25:41 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:25:45 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:26:02 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:27:10 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-22 04:30:25 --> CSRF token verified.
+DEBUG - 2025-12-22 04:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:30:26 --> Available courses count: 10
+DEBUG - 2025-12-22 04:30:26 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:31:34 --> Available courses count: 10
+DEBUG - 2025-12-22 04:31:34 --> User ID: 3, Role: student
+DEBUG - 2025-12-22 04:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:33:16 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:33:38 --> CSRF token verified.
+DEBUG - 2025-12-22 04:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:33:38 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:33:38 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:33:38 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:33:41 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:34:05 --> CSRF token verified.
+DEBUG - 2025-12-22 04:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:05 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:34:05 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:05 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:34:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:34:10 --> CSRF token verified.
+DEBUG - 2025-12-22 04:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:10 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:34:10 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:10 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 04:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:34:12 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 04:34:18 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-22 04:34:25 --> CSRF token verified.
+DEBUG - 2025-12-22 04:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 04:34:25 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-22 04:34:25 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-22 04:34:25 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-22 05:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-22 05:06:24 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}

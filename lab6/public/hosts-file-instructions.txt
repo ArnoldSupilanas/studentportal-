@@ -1,0 +1,44 @@
+# How to Block Sentry Domain at Browser/System Level
+
+## Option 1: Browser Extensions (Easiest)
+1. Install uBlock Origin or AdBlock Plus
+2. Add this custom filter:
+   ```
+   ||sentry-internal.temp-mail.io^
+   ||temp-mail.io/api^
+   ```
+
+## Option 2: Chrome/Edge Settings
+1. Go to Settings > Privacy and security > Site Settings
+2. Click "Block third-party cookies"
+3. Under "Blocked sites", add:
+   - sentry-internal.temp-mail.io
+   - temp-mail.io
+
+## Option 3: Firefox Settings
+1. Go to Settings > Privacy & Security > Enhanced Tracking Protection
+2. Click "Custom" and enable "Cookies"
+3. Add sentry-internal.temp-mail.io to blocked sites
+
+## Option 4: Hosts File (System Level)
+Windows:
+1. Open Notepad as Administrator
+2. Open: C:\Windows\System32\drivers\etc\hosts
+3. Add these lines:
+   ```
+   127.0.0.1 sentry-internal.temp-mail.io
+   127.0.0.1 temp-mail.io
+   ```
+4. Save and restart browser
+
+## Option 5: DNS Level (Advanced)
+Use a DNS service that blocks tracking domains like:
+- NextDNS
+- AdGuard DNS
+- Cloudflare for Teams
+
+## Option 6: Disable Browser Extensions
+The error is likely from a browser extension. Try:
+1. Disable all extensions
+2. Re-enable one by one to find the culprit
+3. Common culprits: VPN extensions, proxy extensions, temp-mail extensions
