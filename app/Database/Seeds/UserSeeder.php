@@ -10,7 +10,7 @@ class UserSeeder extends Seeder
     {
         $data = [
             [
-                'first_name' => 'John',
+                'first_name' => 'Arnold',
                 'last_name' => 'Admin',
                 'email' => 'admin@lms.com',
                 'password' => password_hash('admin123', PASSWORD_DEFAULT),
@@ -30,7 +30,7 @@ class UserSeeder extends Seeder
                 'updated_at' => date('Y-m-d H:i:s'),
             ],
             [
-                'first_name' => 'John',
+                'first_name' => 'Jane',
                 'last_name' => 'Instructor',
                 'email' => 'instructor@lms.com',
                 'password' => password_hash('teacher123', PASSWORD_DEFAULT),

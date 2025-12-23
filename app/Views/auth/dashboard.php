@@ -1,6 +1,13 @@
 <?php 
 helper('text');
 
+// Include header template for CSS and proper HTML structure
+$headerData = ['title' => 'Student Dashboard'];
+if (isset($data)) {
+    $headerData = $headerData + $data;
+}
+echo view('templates/header', $headerData);
+
 // Debug: Check if role_data exists and has content
 if (!isset($role_data) || empty($role_data)) {
     $role_data = [
@@ -11,18 +18,8 @@ if (!isset($role_data) || empty($role_data)) {
         'recent_users' => []
     ];
 }
-
-// Include header template
-$headerData = [
-    'title' => 'Dashboard - Student Portal',
-    'role' => $role ?? 'student',
-    'is_logged_in' => $is_logged_in ?? false,
-    'name' => $name ?? 'Guest'
-];
-echo view('templates/header', $headerData);
 ?>
 
-<body>
     <!-- Navigation is now in header template -->
 
     <!-- Dashboard Header -->

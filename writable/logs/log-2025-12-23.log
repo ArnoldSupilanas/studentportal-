@@ -1,0 +1,1090 @@
+DEBUG - 2025-12-23 03:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-23 03:09:44 --> CSRF token verified.
+DEBUG - 2025-12-23 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-23 03:09:50 --> CSRF token verified.
+DEBUG - 2025-12-23 03:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:09:50 --> Available courses count: 19
+DEBUG - 2025-12-23 03:09:50 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:09:58 --> Available courses count: 19
+DEBUG - 2025-12-23 03:09:58 --> User ID: 3, Role: student
+INFO - 2025-12-23 03:10:07 --> CSRF token verified.
+DEBUG - 2025-12-23 03:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:10:07 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:10:07 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:10:07 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:10:11 --> Available courses count: 19
+DEBUG - 2025-12-23 03:10:11 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:13:55 --> Available courses count: 19
+DEBUG - 2025-12-23 03:13:55 --> User ID: 3, Role: student
+INFO - 2025-12-23 03:14:03 --> CSRF token verified.
+DEBUG - 2025-12-23 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:14:03 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:14:03 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:14:03 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:14:06 --> Available courses count: 19
+DEBUG - 2025-12-23 03:14:06 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:19 --> Available courses count: 19
+DEBUG - 2025-12-23 03:18:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:19 --> Available courses count: 19
+DEBUG - 2025-12-23 03:18:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:19 --> Available courses count: 19
+DEBUG - 2025-12-23 03:18:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:19 --> Available courses count: 19
+DEBUG - 2025-12-23 03:18:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:19 --> Available courses count: 19
+DEBUG - 2025-12-23 03:18:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:29 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:18:29 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:18:29 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-23 03:18:37 --> CSRF token verified.
+DEBUG - 2025-12-23 03:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:18:37 --> Available courses count: 19
+DEBUG - 2025-12-23 03:18:37 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:20:15 --> Available courses count: 19
+DEBUG - 2025-12-23 03:20:15 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:20:23 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:20:23 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:20:23 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-23 03:20:32 --> CSRF token verified.
+DEBUG - 2025-12-23 03:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:20:32 --> Available courses count: 19
+DEBUG - 2025-12-23 03:20:32 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:21:06 --> Available courses count: 19
+DEBUG - 2025-12-23 03:21:06 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:21:06 --> Available courses count: 19
+DEBUG - 2025-12-23 03:21:06 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:21:07 --> Available courses count: 19
+DEBUG - 2025-12-23 03:21:07 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:21:07 --> Available courses count: 19
+DEBUG - 2025-12-23 03:21:07 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:21:07 --> Available courses count: 19
+DEBUG - 2025-12-23 03:21:07 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:21:18 --> Available courses count: 19
+DEBUG - 2025-12-23 03:21:18 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:22:34 --> Available courses count: 19
+DEBUG - 2025-12-23 03:22:34 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:23:13 --> Available courses count: 19
+DEBUG - 2025-12-23 03:23:13 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:25:41 --> Available courses count: 19
+DEBUG - 2025-12-23 03:25:41 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:25:42 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:25:42 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:25:42 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:25:55 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:25:55 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:25:55 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:26:00 --> Available courses count: 19
+DEBUG - 2025-12-23 03:26:00 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:26:00 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:26:00 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:26:00 --> AuthFilter - User authenticated, allowing access
+CRITICAL - 2025-12-23 03:26:23 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: notifications/markAllAsRead]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('notifications/markAllAsRead', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 03:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:26:26 --> Available courses count: 19
+DEBUG - 2025-12-23 03:26:26 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:26:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:26:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:26:26 --> AuthFilter - User authenticated, allowing access
+CRITICAL - 2025-12-23 03:26:29 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: notifications/markAllAsRead]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('notifications/markAllAsRead', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 03:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:26:42 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:26:42 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:26:42 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:27:07 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:27:07 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:27:07 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:27:12 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:27:12 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:27:12 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:27:28 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:27:28 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:27:28 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:27:32 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:27:32 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:27:32 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:28:17 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:28:17 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:28:17 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:28:18 --> Available courses count: 19
+DEBUG - 2025-12-23 03:28:18 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:28:18 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:28:18 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:28:18 --> AuthFilter - User authenticated, allowing access
+CRITICAL - 2025-12-23 03:28:21 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: notifications/mark_as_read/13]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('notifications/mark_as_read/13', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 03:28:24 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: notifications/markAllAsRead]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('notifications/markAllAsRead', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 03:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:28:25 --> Available courses count: 19
+DEBUG - 2025-12-23 03:28:25 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:28:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:28:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:28:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:29:03 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:29:03 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:29:03 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:29:04 --> Available courses count: 19
+DEBUG - 2025-12-23 03:29:04 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:29:05 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:29:05 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:29:05 --> AuthFilter - User authenticated, allowing access
+CRITICAL - 2025-12-23 03:29:17 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: notifications/markAllAsRead]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('notifications/markAllAsRead', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 03:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:29:55 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:29:55 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:29:55 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:29:56 --> Available courses count: 19
+DEBUG - 2025-12-23 03:29:56 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:09 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:35:09 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:35:09 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-23 03:35:19 --> CSRF token verified.
+DEBUG - 2025-12-23 03:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:19 --> Available courses count: 19
+DEBUG - 2025-12-23 03:35:19 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:20 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:35:20 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:35:20 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 03:35:29 --> CSRF token verified.
+DEBUG - 2025-12-23 03:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:29 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:35:29 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:35:29 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:58 --> Available courses count: 19
+DEBUG - 2025-12-23 03:35:58 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:58 --> Available courses count: 19
+DEBUG - 2025-12-23 03:35:58 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:58 --> Available courses count: 19
+DEBUG - 2025-12-23 03:35:58 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:35:59 --> Available courses count: 19
+DEBUG - 2025-12-23 03:35:59 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:36:00 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:36:00 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:36:00 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:36:41 --> Available courses count: 19
+DEBUG - 2025-12-23 03:36:41 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:36:42 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:36:42 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:36:42 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:26 --> Available courses count: 19
+DEBUG - 2025-12-23 03:37:26 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:26 --> Available courses count: 19
+DEBUG - 2025-12-23 03:37:26 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:27 --> Available courses count: 19
+DEBUG - 2025-12-23 03:37:27 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:27 --> Available courses count: 19
+DEBUG - 2025-12-23 03:37:27 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:27 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:37:27 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:37:27 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:27 --> Available courses count: 19
+DEBUG - 2025-12-23 03:37:27 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:27 --> Available courses count: 19
+DEBUG - 2025-12-23 03:37:27 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:28 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:37:28 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:37:28 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 03:37:39 --> CSRF token verified.
+DEBUG - 2025-12-23 03:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:37:39 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:37:39 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:37:39 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:28 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:38:28 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:38:28 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:38 --> Available courses count: 19
+DEBUG - 2025-12-23 03:38:38 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:38 --> Available courses count: 19
+DEBUG - 2025-12-23 03:38:38 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:38 --> Available courses count: 19
+DEBUG - 2025-12-23 03:38:38 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:38 --> Available courses count: 19
+DEBUG - 2025-12-23 03:38:38 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:38 --> Available courses count: 19
+DEBUG - 2025-12-23 03:38:38 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:39 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:38:39 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:38:39 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:39 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:38:39 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:38:39 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 03:38:49 --> CSRF token verified.
+DEBUG - 2025-12-23 03:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:38:49 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:38:49 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:38:49 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:39:39 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:39:39 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:39:39 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:40:21 --> Available courses count: 19
+DEBUG - 2025-12-23 03:40:21 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:40:21 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:40:21 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:40:21 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:41:21 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:41:21 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:41:21 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:41:59 --> Available courses count: 19
+DEBUG - 2025-12-23 03:41:59 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:41:59 --> Available courses count: 19
+DEBUG - 2025-12-23 03:41:59 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:41:59 --> Available courses count: 19
+DEBUG - 2025-12-23 03:41:59 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:42:00 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:42:00 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:42:00 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:42:00 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:42:00 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:42:00 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:43:00 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:43:00 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:43:00 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:43:26 --> Available courses count: 19
+DEBUG - 2025-12-23 03:43:26 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:43:27 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:43:27 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:43:27 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:44:22 --> Available courses count: 19
+DEBUG - 2025-12-23 03:44:22 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:44:22 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:44:22 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:44:22 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 03:44:30 --> CSRF token verified.
+DEBUG - 2025-12-23 03:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:44:30 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:44:30 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:44:30 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:44:33 --> Available courses count: 19
+DEBUG - 2025-12-23 03:44:33 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 03:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:44:33 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:44:33 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:44:33 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 03:44:37 --> CSRF token verified.
+DEBUG - 2025-12-23 03:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:44:37 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:44:37 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:44:37 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:45:33 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:45:33 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:45:33 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:46:33 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:46:33 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:46:33 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:47:33 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:47:33 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:47:33 --> AuthFilter - User authenticated, allowing access
+CRITICAL - 2025-12-23 03:47:33 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: course/enroll]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('course/enroll', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 03:47:37 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: course/enroll]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('course/enroll', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 03:47:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: course/unenroll]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('course/unenroll', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 03:47:52 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: course/unenroll]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('course/unenroll', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 03:47:57 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: course/unenroll]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('course/unenroll', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 03:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:33 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:48:33 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:48:33 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:36 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-23 03:48:36 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 03:48:36 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 03:48:36 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-23 03:48:43 --> CSRF token verified.
+DEBUG - 2025-12-23 03:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:43 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:48:43 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:48:43 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:45 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-23 03:48:45 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 03:48:45 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 03:48:45 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-23 03:48:51 --> CSRF token verified.
+DEBUG - 2025-12-23 03:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:51 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:48:51 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:48:51 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:52 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-23 03:48:52 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 03:48:52 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 03:48:52 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+INFO - 2025-12-23 03:48:56 --> CSRF token verified.
+DEBUG - 2025-12-23 03:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:56 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:48:56 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:48:56 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:48:58 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-23 03:48:58 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 03:48:58 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 03:48:58 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:49:03 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 03:49:03 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 03:49:03 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 03:49:03 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:49:03 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:49:03 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:03 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:49:06 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 03:49:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 03:49:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 03:49:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:49:07 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:49:07 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:07 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 03:49:21 --> CSRF token verified.
+DEBUG - 2025-12-23 03:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:49:21 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:49:21 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:21 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:49:25 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 03:49:25 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 03:49:25 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 03:49:25 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:49:25 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:49:25 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:49:25 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:50:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:50:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:50:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:51:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:51:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:51:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:52:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:52:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:52:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:53:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:53:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:53:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:54:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:54:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:54:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:55:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:55:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:55:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:56:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:56:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:56:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:57:27 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:57:27 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:57:27 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 03:57:55 --> CSRF token verified.
+DEBUG - 2025-12-23 03:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:57:55 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:57:55 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:57:55 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:58:26 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:58:26 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:58:26 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 03:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 03:59:27 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 03:59:27 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 03:59:27 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:00:06 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:00:06 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:00:06 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:00:06 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:00:08 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:00:08 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:00:08 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:00:57 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:00:57 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:00:57 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:00:57 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:01:07 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:01:07 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:01:07 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:02:12 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:02:12 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:02:12 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 04:02:57 --> CSRF token verified.
+DEBUG - 2025-12-23 04:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:02:57 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:02:57 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:02:57 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:03:07 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:03:07 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:03:07 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:03:09 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:03:09 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:03:09 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:03:09 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:03:16 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:03:16 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:03:16 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:16 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:04:16 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:16 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:28 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:04:28 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:04:28 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:04:28 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:29 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:04:29 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:29 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:04:29 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:30 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:04:30 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:30 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 04:04:57 --> CSRF token verified.
+DEBUG - 2025-12-23 04:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:04:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:04:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:04:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:05:30 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:05:30 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:05:30 --> AuthFilter - User authenticated, allowing access
+CRITICAL - 2025-12-23 04:05:57 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: notifications/markAllAsRead]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('notifications/markAllAsRead', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 04:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:06:30 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:06:30 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:06:30 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:06:48 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:06:48 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:06:48 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:06:48 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:06:49 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:06:49 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:06:49 --> AuthFilter - User authenticated, allowing access
+INFO - 2025-12-23 04:06:59 --> CSRF token verified.
+DEBUG - 2025-12-23 04:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:06:59 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:06:59 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:06:59 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:07:49 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:07:49 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:07:49 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:08:49 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:08:49 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:08:49 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:09:49 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:09:49 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:09:49 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:10:49 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:10:49 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:10:49 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:17:17 --> Available courses count: 19
+DEBUG - 2025-12-23 04:17:17 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 04:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:17:17 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:17:17 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:17:17 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:18:18 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:18:18 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:18:18 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:19:18 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:19:18 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:19:18 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:20:18 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:20:18 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:20:18 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:39:04 --> Available courses count: 19
+DEBUG - 2025-12-23 04:39:04 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 04:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:39:05 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:39:05 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:39:05 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-23 04:46:41 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: auth/login]
+in APPPATH\Controllers\Auth.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-12-23 04:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:47:04 --> Available courses count: 19
+DEBUG - 2025-12-23 04:47:04 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 04:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:47:09 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:47:09 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:47:09 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:47:20 --> RoleAuth Filter - URI: /index.php/student/courses
+DEBUG - 2025-12-23 04:47:20 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:47:20 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:47:20 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:47:22 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 04:47:22 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 04:47:22 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 04:47:22 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:47:22 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:47:22 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:47:22 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:48:23 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:48:23 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:48:23 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:48:24 --> Available courses count: 19
+DEBUG - 2025-12-23 04:48:24 --> User ID: 3, Role: student
+DEBUG - 2025-12-23 04:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:48:25 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:48:25 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:48:25 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:49:23 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:49:23 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:49:23 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:49:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:49:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:49:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:50:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:50:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:50:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-23 04:51:40 --> mysqli_sql_exception: Unknown column 'course_name' in 'where clause' in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Course->search()
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-23 04:51:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'course_name' in 'where clause'
+[Method: GET, Route: courses/search]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE :course_name: ESCAPE \'!\'
+OR  `course_description` LIKE :course_description: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Course->search()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 04:51:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'course_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%search term%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%search term%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%search term%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%search term%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE :course_name: ESCAPE \'!\'
+OR  `course_description` LIKE :course_description: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Course->search()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 04:51:40 --> [Caused by] mysqli_sql_exception: Unknown column 'course_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%search term%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%search term%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%search term%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%search term%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%search term%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%search term%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE :course_name: ESCAPE \'!\'
+OR  `course_description` LIKE :course_description: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Course->search()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 04:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:51:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:51:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:51:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-23 04:52:06 --> mysqli_sql_exception: Unknown column 'course_name' in 'where clause' in C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ITE311-SUPILANAS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ITE311-SUPILANAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ITE311-SUPILANAS\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ITE311-SUPILANAS\app\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(933): App\Controllers\Course->search()
+#8 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#9 C:\xampp\htdocs\ITE311-SUPILANAS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ITE311-SUPILANAS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\ITE311-SUPILANAS\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\ITE311-SUPILANAS\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-12-23 04:52:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'course_name' in 'where clause'
+[Method: GET, Route: courses/search]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE :course_name: ESCAPE \'!\'
+OR  `course_description` LIKE :course_description: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Course->search()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 04:52:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'course_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%development%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%development%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%development%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%development%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE :course_name: ESCAPE \'!\'
+OR  `course_description` LIKE :course_description: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Course->search()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+CRITICAL - 2025-12-23 04:52:06 --> [Caused by] mysqli_sql_exception: Unknown column 'course_name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%development%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%development%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%development%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%development%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE \'%development%\' ESCAPE \'!\'
+OR  `course_description` LIKE \'%development%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `courses`
+WHERE `course_name` LIKE :course_name: ESCAPE \'!\'
+OR  `course_description` LIKE :course_description: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Course.php(294): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Course->search()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\ITE311-SUPILANAS\\public\\index.php')
+DEBUG - 2025-12-23 04:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:52:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:52:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:52:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:53:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:53:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:53:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:54:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:54:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:54:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:55:58 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:55:58 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:55:58 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:56:59 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:56:59 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:56:59 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:58:00 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:58:00 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:58:00 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:59:01 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:59:01 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:59:01 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 04:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 04:59:41 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 04:59:41 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 04:59:41 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:00:17 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:00:17 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:00:17 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:01:07 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:01:07 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:01:07 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:02:00 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:02:00 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:02:00 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:03:01 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:03:01 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:03:01 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:03:41 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:03:41 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:03:41 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:04:41 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:04:41 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:04:41 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:04:54 --> RoleAuth Filter - URI: /index.php/student/dashboard
+DEBUG - 2025-12-23 05:04:54 --> RoleAuth Filter - Role: student
+DEBUG - 2025-12-23 05:04:54 --> RoleAuth Filter - Arguments: ["student"]
+DEBUG - 2025-12-23 05:04:54 --> RoleAuth Filter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:04:54 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:04:54 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:04:54 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:05:54 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:05:54 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:05:54 --> AuthFilter - User authenticated, allowing access
+DEBUG - 2025-12-23 05:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-23 05:06:54 --> AuthFilter - Checking authentication
+DEBUG - 2025-12-23 05:06:54 --> AuthFilter - Session Data: {"is_logged_in":true,"logged_in":true,"user_id":"3","email":"student@lms.com"}
+DEBUG - 2025-12-23 05:06:54 --> AuthFilter - User authenticated, allowing access

@@ -4,16 +4,19 @@ namespace App\Controllers;
 
 use App\Models\EnrollmentModel;
 use App\Models\CourseModel;
+use App\Models\NotificationModel;
 
 class Course extends BaseController
 {
     protected $enrollmentModel;
     protected $courseModel;
+    protected $notificationModel;
 
     public function __construct()
     {
         $this->enrollmentModel = new EnrollmentModel();
         $this->courseModel = new CourseModel();
+        $this->notificationModel = new NotificationModel();
     }
 
     /**
@@ -86,6 +89,14 @@ class Course extends BaseController
             if ($enrollmentId) {
                 // Get course details for response
                 $courseDetails = $this->courseModel->find($courseId);
+                
+                // Create notification for successful enrollment
+                $this->notificationModel->createNotification(
+                    $userId,
+                    'Course Enrollment',
+                    "You have been successfully enrolled in '{$courseDetails['title']}'.",
+                    'success'
+                );
                 
                 $response = $this->response->setJSON([
                     'success' => true,
@@ -269,5 +280,26 @@ class Course extends BaseController
         ];
         
         return view('courses/index', $data);
+    }
+
+    public function search()
+    {
+        $searchTerm = $this->request->getGet('search_term');
+
+        if (!empty($searchTerm)) {
+            $this->courseModel->like('title', $searchTerm);
+            $this->courseModel->orLike('description', $searchTerm);
+        }
+
+        $courses = $this->courseModel->findAll();
+
+        if ($this->request->isAJAX()) {
+            return $this->response->setJSON([
+                'success' => true,
+                'courses' => $courses
+            ]);
+        }
+
+        return view('courses/search_results', ['courses' => $courses, 'searchTerm' => $searchTerm]);
     }
 }

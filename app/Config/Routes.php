@@ -96,6 +96,16 @@ $routes->group('admin', ['filter' => 'roleauth:admin'], function($routes){
     $routes->get('reports', 'Admin::reports');
     $routes->get('settings', 'Admin::settings');
     
+    // Notification system routes
+    $routes->get('notification/getUnread', 'Notification::getUnread');
+    $routes->get('notification/getAll', 'Notification::getAll');
+    $routes->get('notification/poll', 'Notification::poll');
+    $routes->post('notification/markAsRead/(:num)', 'Notification::markAsRead/$1');
+    $routes->post('notification/markAllAsRead', 'Notification::markAllAsRead');
+    $routes->post('notification/create', 'Notification::create');
+    $routes->post('notification/delete/(:num)', 'Notification::delete/$1');
+    $routes->get('notification/getStats', 'Notification::getStats');
+    
     // Enrollment management routes
     $routes->get('enrollments', 'Admin::enrollments');
     $routes->get('enrollment-stats', 'Admin::enrollmentStats');
@@ -114,6 +124,12 @@ $routes->group('admin', ['filter' => 'roleauth:admin'], function($routes){
     $routes->post('update-user', 'Admin::updateUser');
     $routes->post('delete-user', 'Admin::deleteUser');
 });
+
+// ============================================================================
+// NOTIFICATION ROUTES (Public API endpoints)
+// ============================================================================
+$routes->get('/notifications', 'Notifications::get');
+$routes->post('/notifications/mark_read/(:num)', 'Notifications::mark_as_read/$1');
 
 // ============================================================================
 // TEACHER ROUTES (Teacher role required)
@@ -159,6 +175,8 @@ $routes->group('student', ['filter' => 'roleauth:student'], function($routes){
 $routes->get('/course', 'Course::index');
 $routes->post('/course/unenroll', 'Course::unenroll');
 $routes->get('/course/enrolled', 'Course::getEnrolledCourses');
+$routes->get('/courses/search', 'Course::search');
+$routes->post('/courses/search', 'Course::search');
 
 // ============================================================================
 // UTILITY ROUTES (Helper functions)
@@ -166,6 +184,18 @@ $routes->get('/course/enrolled', 'Course::getEnrolledCourses');
 $routes->get('/quick-login', 'Auth::quickLogin');
 $routes->post('/quick-login', 'Auth::quickLogin');
 $routes->get('/enrollment-dashboard', 'Student::enrollmentDashboard');
+
+// ============================================================================
+// NOTIFICATION ROUTES (AJAX endpoints)
+// ============================================================================
+$routes->get('/notifications', 'Notifications::index', ['filter' => 'auth']);
+$routes->get('/notifications/get', 'Notifications::get', ['filter' => 'auth']);
+$routes->get('/notifications/getNotifications', 'Notifications::getNotifications', ['filter' => 'auth']);
+$routes->get('/notifications/getUnreadCount', 'Notifications::getUnreadCount', ['filter' => 'auth']);
+$routes->post('/notifications/mark_as_read/(:num)', 'Notifications::mark_as_read/$1', ['filter' => 'auth']);
+$routes->post('/notifications/markAsRead', 'Notifications::markAsRead', ['filter' => 'auth']);
+$routes->post('/notifications/markAllAsRead', 'Notifications::markAllAsRead', ['filter' => 'auth']);
+$routes->post('/notifications/createTestNotification', 'Notifications::createTestNotification', ['filter' => 'auth']);
 
 // ============================================================================
 // LEGACY ROUTES (Backward compatibility)

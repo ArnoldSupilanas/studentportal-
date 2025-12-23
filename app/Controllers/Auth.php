@@ -5,18 +5,21 @@ namespace App\Controllers;
 use App\Models\UserModel;
 use App\Models\EnrollmentModel;
 use App\Models\CourseModel;
+use App\Models\NotificationModel;
 
 class Auth extends BaseController
 {
     protected $userModel;
     protected $enrollmentModel;
     protected $courseModel;
+    protected $notificationModel;
 
     public function __construct()
     {
         $this->userModel = new UserModel();
         $this->enrollmentModel = new EnrollmentModel();
         $this->courseModel = new CourseModel();
+        $this->notificationModel = new NotificationModel();
     }
 
     // Quick login method for debugging
@@ -45,6 +48,15 @@ class Auth extends BaseController
                     'last_name' => 'Student',
                     'email' => $email
                 ]);
+                
+                // Create login notification for quick login
+                $this->notificationModel->createNotification(
+                    3,
+                    'Login Successful',
+                    "Welcome back, Bob! You have successfully logged into the student portal.",
+                    'success'
+                );
+                
                 return redirect()->to('/auth/dashboard');
             } elseif ($email === 'admin@lms.com' && $password === 'password') {
                 session()->set([
@@ -57,6 +69,15 @@ class Auth extends BaseController
                     'last_name' => 'Admin',
                     'email' => $email
                 ]);
+                
+                // Create login notification for quick login
+                $this->notificationModel->createNotification(
+                    1,
+                    'Login Successful',
+                    "Welcome back, John! You have successfully logged into the admin portal.",
+                    'success'
+                );
+                
                 return redirect()->to('/enrollment-dashboard');
             }
         }
@@ -269,6 +290,14 @@ class Auth extends BaseController
                 // Set session data
                 session()->set($sessionData);
 
+                // Create login notification
+                $this->notificationModel->createNotification(
+                    $user['id'],
+                    'Login Successful',
+                    "Welcome back, {$user['first_name']}! You have successfully logged into the student portal.",
+                    'success'
+                );
+
                 // Set welcome flash message
                 session()->setFlashdata('success', 'Welcome back, ' . $user['first_name'] . '!');
                 
@@ -339,6 +368,9 @@ class Auth extends BaseController
             log_message('debug', 'Available courses count: ' . count($data['available_courses']));
             log_message('debug', 'User ID: ' . $userId . ', Role: ' . $role);
         }
+
+        // Pass notification data to view
+        $this->passNotificationData();
 
         return view('auth/dashboard', $data);
     }

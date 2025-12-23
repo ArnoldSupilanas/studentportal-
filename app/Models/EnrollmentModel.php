@@ -178,8 +178,7 @@ class EnrollmentModel extends Model
     {
         return $this->where('user_id', $user_id)
                     ->where('course_id', $course_id)
-                    ->set(['status' => 'dropped'])
-                    ->update();
+                    ->delete();
     }
 
     /**

@@ -2,8 +2,16 @@
 
 namespace App\Controllers;
 
+use App\Models\NotificationModel;
+
 class Admin extends BaseController
 {
+    protected $notificationModel;
+    
+    public function __construct()
+    {
+        $this->notificationModel = new NotificationModel();
+    }
     public function dashboard()
     {
         // Check if user is logged in
@@ -15,6 +23,9 @@ class Admin extends BaseController
             session()->setFlashdata('error', 'Please login to access the dashboard.');
             return redirect()->to('/login');
         }
+        
+        // Pass notification data to view
+        $this->passNotificationData();
         
         // Get user role from session
         $role = session()->get('role') ?? 'admin';
@@ -311,6 +322,16 @@ class Admin extends BaseController
             $result = $userModel->insert($userData);
             
             if ($result) {
+                // Create notification for successful user creation
+                $adminId = session()->get('user_id') ?? session()->get('userID');
+                $this->notificationModel->createNotification(
+                    $adminId,
+                    'success',
+                    'User Created',
+                    "New user '{$firstName} {$lastName}' has been created with role '{$role}'.",
+                    'success'
+                );
+                
                 return $this->response->setJSON(['success' => true, 'message' => 'User created successfully']);
             } else {
                 return $this->response->setJSON(['success' => false, 'message' => 'Failed to create user']);
@@ -446,6 +467,16 @@ class Admin extends BaseController
             ];
             
             if ($courseModel->createCourse($courseData)) {
+                // Create notification for successful course creation
+                $adminId = session()->get('user_id') ?? session()->get('userID');
+                $this->notificationModel->createNotification(
+                    $adminId,
+                    'success',
+                    'Course Created',
+                    "New course '{$name}' ({$code}) has been created and assigned to {$teacher}.",
+                    'success'
+                );
+                
                 return $this->response->setJSON([
                     'success' => true,
                     'message' => 'Course created successfully',

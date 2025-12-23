@@ -6,10 +6,14 @@ class Teacher extends BaseController
 {
     public function dashboard()
     {
+        // Pass notification data to view
+        $this->passNotificationData();
+        
         $data = [
             'title' => 'Teacher Dashboard',
             'page_title' => 'Welcome, Teacher!',
-            'description' => 'Manage your courses and students from this dashboard.'
+            'description' => 'Manage your courses and students from this dashboard.',
+            'unread_notification_count' => $this->getUnreadNotificationCount()
         ];
         return view('teacher_dashboard', $data);
     }

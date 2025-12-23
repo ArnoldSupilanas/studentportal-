@@ -157,7 +157,7 @@
                                                 </td>
                                                 <td class="text-center">
                                                     <a href="<?= base_url('materials/download/' . $material['id']) ?>" 
-                                                       class="text-primary text-decoration-none"
+                                                       class="btn btn-sm btn-primary" 
                                                        title="Download <?= esc($material['file_name']) ?>">
                                                         <i class="bi bi-download me-1"></i>
                                                         Download

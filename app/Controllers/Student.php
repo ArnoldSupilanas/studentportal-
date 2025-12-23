@@ -5,18 +5,21 @@ namespace App\Controllers;
 use App\Models\EnrollmentModel;
 use App\Models\CourseModel;
 use App\Models\MaterialModel;
+use App\Models\NotificationModel;
 
 class Student extends BaseController
 {
     protected $enrollmentModel;
     protected $courseModel;
     protected $materialModel;
+    protected $notificationModel;
 
     public function __construct()
     {
         $this->enrollmentModel = new EnrollmentModel();
         $this->courseModel = new CourseModel();
         $this->materialModel = new MaterialModel();
+        $this->notificationModel = new NotificationModel();
     }
     public function enrollmentDashboard()
     {
@@ -28,6 +31,9 @@ class Student extends BaseController
             session()->setFlashdata('error', 'Please login to access the enrollment dashboard');
             return redirect()->to('/login');
         }
+        
+        // Pass notification data to view
+        $this->passNotificationData();
         
         $role = session()->get('role') ?? 'student';
         if ($role !== 'student') {
@@ -51,7 +57,8 @@ class Student extends BaseController
         $data = [
             'enrolled_courses' => $enrolledCourses,
             'available_courses' => $availableCourses,
-            'user_name' => (session()->get('first_name') ?? 'Student') . ' ' . (session()->get('last_name') ?? '')
+            'user_name' => (session()->get('first_name') ?? 'Student') . ' ' . (session()->get('last_name') ?? ''),
+            'unread_notification_count' => $this->getUnreadNotificationCount()
         ];
         
         return view('student/enrollment_dashboard', $data);
@@ -75,6 +82,9 @@ class Student extends BaseController
             return redirect()->to('/dashboard');
         }
         
+        // Pass notification data to view
+        $this->passNotificationData();
+        
         // Get user's enrolled courses using EnrollmentModel
         $enrolledCourses = $this->enrollmentModel->getUserEnrollments($userId);
         
@@ -97,7 +107,8 @@ class Student extends BaseController
             'role' => $role,
             'name' => (session()->get('first_name') ?? 'Student') . ' ' . (session()->get('last_name') ?? ''),
             'email' => session()->get('email') ?? '',
-            'is_logged_in' => $isLoggedIn
+            'is_logged_in' => $isLoggedIn,
+            'unread_notification_count' => $this->getUnreadNotificationCount()
         ];
         
         return view('auth/dashboard', $data);

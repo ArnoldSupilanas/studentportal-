@@ -1,61 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Enrollment Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-        body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .dashboard-card {
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            border: none;
-            transition: transform 0.3s ease;
-        }
-        .dashboard-card:hover {
-            transform: translateY(-5px);
-        }
-        .enroll-btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border: none;
-            color: white;
-            padding: 8px 20px;
-            border-radius: 25px;
-            transition: all 0.3s ease;
-            font-weight: 600;
-        }
-        .enroll-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
-        }
-        .enroll-btn:disabled {
-            background: #6c757d;
-            cursor: not-allowed;
-        }
-        .course-card {
-            border-left: 4px solid #667eea;
-            transition: all 0.3s ease;
-        }
-        .course-card:hover {
-            border-left-color: #764ba2;
-            background: #f8f9fa;
-        }
-        .stats-card {
-            text-align: center;
-            padding: 20px;
-        }
-        .stats-number {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #667eea;
-        }
+<?php 
+// Include header template for CSS and proper HTML structure
+echo view('templates/header', ['title' => 'Student Enrollment Dashboard'] + $data);
+?>
+
+<style>
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+.dashboard-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border: none;
+    transition: transform 0.3s ease;
+}
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+.enroll-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+.enroll-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+.enroll-btn:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+.course-card {
+    border-left: 4px solid #667eea;
+    transition: all 0.3s ease;
+}
+.course-card:hover {
+    border-left-color: #764ba2;
+    background: #f8f9fa;
+}
+.stats-card {
+    text-align: center;
+    padding: 20px;
+}
+.stats-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #667eea;
+}
+</style>
+
+<div class="container mt-4">
         .alert-custom {
             border-radius: 10px;
             border: none;

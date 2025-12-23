@@ -1,4 +1,4 @@
-<?php include(APPPATH . 'Views/templates/header.php'); ?>
+<?php include 'app/Views/templates/navigation.php'; ?>
 
 <!-- Dashboard-Specific Styles -->
 <style>
